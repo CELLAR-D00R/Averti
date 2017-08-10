@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="facebook" unicode="&#xe800;" d="m0-150l0 1000 1000 0 0-1000-1000 0z m471 469l92 0 0-352 132 0 0 352 129 0 6 127-135 0 0 94q0 31 12 43t41 13l80 0 2 117q-59 6-88 6l-23 0q-31 0-57-10-99-39-99-154l0-109-92 0 0-127z" horiz-adv-x="1000" />
+<glyph glyph-name="pinterest" unicode="&#xe801;" d="m0 491q0 63 27 125t76 115 130 86 178 33q159 0 261-98t102-231q0-171-86-282t-224-112q-45 0-84 21t-56 51l-40-158q-5-19-13-38t-17-38-19-34-19-30-17-24-13-16l-6-8q-3-4-8-3t-6 6q0 1-1 14t-3 27-3 38-1 44 3 48 7 48q11 47 74 313-8 16-13 39t-5 36l-1 15q0 64 33 107t78 42q37 0 58-24t20-62q0-23-8-56t-23-77-20-71q-10-45 18-78t73-33q79 0 131 90t51 216q0 97-63 159t-176 61q-126 0-204-81t-79-194q0-67 38-113 13-15 8-32-2-5-6-23t-6-23q-2-11-10-14t-18 0q-59 24-88 83t-30 136z" horiz-adv-x="774" />
+<glyph glyph-name="twitter" unicode="&#xe802;" d="m0-37q30-3 60-3 176 0 314 108-82 1-147 50t-89 125q20-4 47-4 35 0 67 9-88 17-145 87t-58 160l0 3q53-30 115-31-52 34-82 90t-31 120q0 68 35 127 94-117 230-186t290-78q-7 33-7 58 0 104 74 178t179 74q109 0 184-80 87 18 160 62-28-91-110-140 73 9 144 40-48-75-125-131l0-33q0-101-29-202t-90-194-145-165-201-115-253-42q-209 0-387 113z" horiz-adv-x="1230" />
+<glyph glyph-name="facebook-1" unicode="&#xe803;" d="m0 313l0 191 154 0 0 96q0 104 68 177t163 73l153 0 0-191-153 0q-15 0-27-16t-12-41l0-98 192 0 0-191-192 0 0-463-192 0 0 463-154 0z" horiz-adv-x="538" />
+</font>
+</defs>
+</svg>

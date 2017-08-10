@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/css-actu/averti-web-main.css">
+  <link rel="stylesheet" href="css/css-actu/elusive-icons.min.css">
+  <link rel="stylesheet" href="css/css-actu/materialize.min.css">
+  <link rel="stylesheet" href="css/css-actu/weavent.css">
+  <link rel="stylesheet" href="css/css-actu/averti.css">
+  <link rel="stylesheet" href="fonts/fontello/css/fontello.css">
+  <link rel="stylesheet" href="css/css-actu/voeux.css">
+  <link rel="stylesheet" href="css/css-actu/snow.css">
+  <?php require('config.php'); ?>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+
+<body>
+    <!-- <header class="top-nav" id="scroll">
+      <nav class="top-nav top-nav-container">
+          <div class="nav-wrapper">
+              <a class="page-title" href="index"><img class="logo-image" src="images/logo_averti.png" alt="logo de l'agence averti" height="85;" style="margin-top: 25px;"></a>
+              <ul id="averti-menu" class="right hide-on-med-and-down">
+                  <li class="active"><a href="index" id="menuAccueil">accueil</a></li>
+                  <li><a href="#" id="menuExpertise">expertise</a></li>
+                  <li><a href="#" id="menuOutils">outils</a></li>
+                  <li><a href="clients">clients</a></li>
+                  <li><a href="actualites">actualités</a></li>
+                  <li><a href="contact">contact</a></li>
+              </ul>
+              <ul id="averti-menu-social" class="right">
+                  <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <li><a href="https://www.pinterest.com/agenceaverti/averti/" target="_blank"><i class="icon-pinterest social-icons"></i></a></li>
+                  <li><a href="https://twitter.com/agenceaverti" target="_blank"><i class="icon-twitter social-icons"></i></a></li>
+                  <li><a href="http://www.scoop.it/u/agence-averti" target="_blank"><i class="icon-scoopit"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/soci-t-averti?trk=ppro_cprof" target="_blank"><i class="icon-linkedin"></i></a></li>
+
+              </ul>
+              <ul class="side-nav" id="mobile-menu">
+                  <li class="active"><a href="index" id="menuMobAccueil">accueil</a></li>
+                  <li><a href="#" id="menuMobExpertise">expertise</a></li>
+                  <li><a href="#" id="menuMobOutils">outils</a></li>
+                  <li><a href="clients">clients</a></li>
+                  <li><a href="actualites">actualités</a></li>
+                  <li><a href="contact">contact</a></li>
+              </ul>
+          </div>
+      </nav>
+    </header> -->
+    <header >
+      <nav class="top-nav top-nav-container">
+        <div class="nav-wrapper">
+          <a class="page-title" href="index"><img class="logo-image" src="images/logo_averti.png"></a>
+          <header class="top-nav">
+
+            <ul id="averti-menu" class="right hide-on-med-and-down">
+              <li><a href="index" id="menuAccueil">accueil</a></li>
+              <li><a href="index.html?section=expertise" id="menuExpertise">expertise</a></li>
+              <li><a href="index.html?section=outils" id="menuOutils">outils</a></li>
+              <li><a href="clients">clients</a></li>
+              <li class="active"><a href="actualites">actualités</a></li>
+              <li><a href="contact">contact</a></li>
+            </ul>
+
+            <ul id="averti-menu-social" class="right">
+              <a class="button-collapse" href="#" data-activates="mobile-menu"><i class="material-icons">menu</i></a>
+
+              <li><a href="https://fr.pinterest.com/averti0314/" target="_blank"><img class="img-responsive" id="img_pinterest" src="images/pinterest.png" alt="" /></a></li>
+              <li><a href="https://twitter.com/agenceaverti" target="_blank"><img class="img-responsive" id="img_twitter" src="images/twitter.png" alt="" /></a></li>
+              <li><a href="http://www.scoop.it/u/agence-averti" target="_blank"><img class="img-responsive" id="img_scoop-it" src="images/scoopit.png" alt="" /></a></li>
+              <li><a href="https://www.linkedin.com/company/soci-t-averti?trk=ppro_cprof" target="_blank"><img class="img-responsive" id="img_pinterest"src="images/linkedin.png" alt="" /></a></li>
+
+            </ul>
+            <ul class="side-nav" id="mobile-menu">
+              <li><a href="index" id="menuMobAccueil">accueil</a></li>
+              <li><a href="index" id="menuMobExpertise">expertise</a></li>
+              <li><a href="index" id="menuMobOutils">outils</a></li>
+              <li><a href="clients">clients</a></li>
+              <li class="active"><a href="actualites">actualités</a></li>
+              <li><a href="contact">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="masonry-container">
+          <div class="masonry">
+            <div class="masonry-sizer"></div>
+            <div class="gutter-sizer"></div>
+                    <!-- <div class="masonry-item m2r3c  ">
+                        <div class="row r2">
+
+                            <div id="snow">
+                                <canvas id="maincanvas" class="snow"></canvas>
+                            </div>
+                            <div class="text-petit-ecran">
+                                <p>
+                                    EN 2017, Averti vous souhaite<br>
+                                    De nombreuses rencontres... riches d’humanité<br>
+                                    De grands projets... des petits aussi, tous réussis <br>
+                                    Des idées lumineuses... voire quelques éclats de génie <br>
+                                    Beaucoup d’inspiration... et des respirations <br>
+                                    De belles histoires... qui vous porteront loin <br>
+                                    Comme nous depuis 15 ans, avec vous.
+                                    Belle année 2017.
+                                </p>
+
+                            </div>
+
+                            <img class="img-responsive2" src="images/carte-voeux-2017.png" alt="" />
+                        </div>
+                      </div> -->
+                      <!-- Bloc 1 -->
+                      <!-- Bloc Twitter -->
+                      <div class="masonry-item m1r1c black no-padding twitter_responsive twitter_averti">
+                        <a class="twitter-timeline" href="https://twitter.com/AgenceAverti" data-widget-id="670238235541553152">Tweets de @AgenceAverti</a>
+
+                        <script>!function(d,s,id)
+                          {var js, fjs =d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location)?'http':'https';
+
+                            if (!d.getElementById(id)) {  js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);
+                          }
+                        }(document,"script","twitter-wjs");
+                      </script>
+                      <a class="twitter-timeline" href="https://twitter.com/AgenceAverti" data-widget-id="670238235541553152">Tweets de @AgenceAverti</a>
+
+                      <script>!function(d,s,id)
+                        {var js, fjs =d.getElementsByTagName(s)[0],
+                          p = /^http:/.test(d.location)?'http':'https';
+
+                          if (!d.getElementById(id)) {  js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);
+                        }
+                      }(document,"script","twitter-wjs");
+                    </script>
+
+
+                        <!-- <a class="twitter-timeline" href="https://twitter.com/AgenceAverti" data-widget-id="670238235541553152">
+                    Tweets de @AgenceAverti
+                </a>
+                        <script>
+                            ! function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0],
+                                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                          </script> -->
+                        <!--
+<a class="twitter-timeline" href="https://twitter.com/hashtag/penuriecarburant" data-widget-id="735444797574483969">Tweets sur #penuriecarburant</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
+</div>
+
+
+<!-- Bloc 8 -->
+<div class="masonry-item m2r2c video2-2 fondviolet">
+  <div class="row r2">
+    <div class="col s12 video">
+      <div class="date">
+        <p style="text-align:right" ;>Le 02/06/2017</p>
+        <div class="logodudredi">
+          <img class="img-responsive" src="images/logo-trouvailles.png" alt="" />
+        </div>
+      </div>
+      <div class="blanche">
+        <p>
+         Le groupe BPCE détonne grâce à son rapport d'activité !<a href="https://newsroom.groupebpce.fr/actualites/l-intrigant-monsieur-langley-le-nouveau-rapport-d-activite-du-groupe-bpce-bb04-7b707.html" target="_blank"> Publié sous forme de nouvelle littéraire, nous y suivons Eva qui bâtit au fil de l'eau son entreprise. Ou quand la narration renforce le contenu...</a>
+         </p>
+       </div>
+       <div class="bleue">
+        <p>
+         Créer des contenus, c'est bien. Créer des contenus qui engagent, c'est mieux.<a href="http://demarche-communautaire.fr/6-contenus-engagement-communaute/" target="_blank">Tour d'horizon des formats qui marchent. </a> </p>
+
+        </div>
+
+        <div class="blanche">
+          <p>
+            La course au marketing de contenus tue-t-elle l'information de qualité&nbsp;? <a href="https://siecledigital.fr/2017/05/31/content-marketing-est-il-en-train-de-tuer-linformation-b2b/" target="_blank">Siècle Digital nous livre son analyse sur l'infobésité dans le monde professionnel.</a>
+          </p>
+        </div>
+        <div>
+          <p class="lien-trouvailles" style="text-align:center">
+            <a href="http://averti.fr/trouvaillesdudredi" target="_blank">Inscrivez-vous !</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bloc article + image = Weavent Interactive-->
+  <div class="masonry-item m2r1c art_img">
+    <div class="row r1">
+      <div class="col s12 video">
+        <a href="https://www.1jour1evenement.info/" target="_blank"><img class="responsive-img" src="images/1jour-1eve.png" alt="lien vers la plateforme 1jour1venement.info"></a>
+      </div>
+    </div>
+    <div class="row r1">
+      <div class="col s12 text">
+        <div class="content-area">
+          <div class="evenement">
+            <p class="haut">
+              On aime, on vous en parle : <a href="https://www.1jour1evenement.info/" target="_blank"><b>1jour1evenement.info</b></a> recense les événements qui comptent pour les communautés pro.
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bloc 6 -->
+    <div class="masonry-item m1r1c ">
+      <div class="row r1">
+        <div class="col s12 text">
+          <div class="content-area">
+
+            <p>
+
+              Besoin d’air ? Depuis 2014, Averti accompagne <b>l’ADEME</b> pour présenter les travaux menés dans le cadre du programme de recherche sur la qualité de l’air <b>PRIMEQUAL</b>. En 2016, notre équipe a conçu deux publications sur les zones à circulation
+              restreinte et leur impact sur la qualité de notre air. Ne circulez pas, <a class="lien-rose" href="http://www.primequal.fr/pages/public/index.php">il y a des choses à lire !</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bloc Article + img -->
+                    <!-- <div class="masonry-item m1r2c">
+                        <div class="row r1 sr2">
+                            <div class="col s12 m6 video">
+                                <img class="responsive-img" src="images/julie.png" alt="julie">
+                            </div>
+                            <div class="col s12 m6 text droite">
+                                <div class="content-area">
+                                    <p>Pétillante et riche d’idées, <b>Julie</b> a rejoint l’agence pour piloter son pôle créa. Sous sa double casquette graphisme et web, elle apporte son regard aiguisé et sa bonne humeur à nos projets.</p>
+                                </div>
+                            </div>
+                        </div>
+                        https://www.youtube.com/embed/M0GlNrrvTsA"
+                      </div> -->
+                      <!-- Bloc Article + img -->
+                      <div class="masonry-item m2r1c art_img">
+                        <div class="row r1">
+                          <div class="col s12 video">
+                            <a href="" target="_blank"><img class="responsive-img" src="images/actu-cvs.png" alt="actu cvs"></a>
+                          </div>
+                        </div>
+                        <div class="row r1">
+                          <div class="col s12 text">
+                            <div class="content-area">
+                            <div class="evenement">
+                                <p class="haut2"><b>Com’ interne : du word au Weavent© </b>
+                                  Pour l’un des premiers cabinets d’avocats indépendants français, Cornet Vincent Segurel (160 avocats dans 6 métropoles), nous avons transformé une feuille de route interne en un Weavent© coloré et musclé - point de vue contenu -, iconographies à l’appui. Une réalisation co-signée avec l’agence Quel Progrès ! (Groupe Netco)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      Julie
+                    <!-- <div class="masonry-item m2r1c art_img">
+                        <div class="row r1">
+                            <div class="col s12 video">
+                                <img class="responsive-img" src="images/julie.png" alt="Julie">
+                            </div>
+                        </div>
+                        <div class="row r1">
+                            <div class="col s12 text">
+                                <div class="content-area">
+                                  <div class="evenement">
+
+                                        <p class="haut">Pétillante et riche d’idées, <b>Julie</b> a rejoint l’agence pour piloter son pôle créa. Sous sa double casquette graphisme et web, elle apporte son regard aiguisé et sa bonne humeur à nos projets.</p>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                      </div> -->
+
+                      <!-- Bloc article + image = Weavent Interactive-->
+                      <div class="masonry-item m2r1c art_img">
+                        <div class="row r1">
+                          <div class="col s12 slideshare">
+                            <iframe src="https://player.vimeo.com/video/194797144" width="441" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                        <div class="row r1">
+                          <div class="col s12 text">
+                            <div class="content-area">
+                              <div class="evenement">
+
+                                <p class="haut">
+                                  Nous avons participé à un forum ouvert sur la transformation des organisations, et animé un atelier : <b> "Comment passer du livre (de Frédéric Laloux) à l'action dans une équipe de 10 personnes ?"</b>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="masonry-item m1r1c ">
+                        <div class="row r1">
+                          <div class="col s12 text">
+                            <div class="content-area">
+
+                              <p class="haut">
+                                Au programme du <b>1er forum de la transition économique, écologique et sociale de Grande-Synthe</b>, des intervenants de qualité et une belle anticipation de l’avenir. Le tout à retrouver bientôt dans une publication Averti.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+                      <div class="masonry-item m2r1c art_img">
+                        <div class="row r1">
+                          <div class="col s12 slideshare">
+                            <iframe src="https://www.youtube.com/embed/M0GlNrrvTsA" width="441" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                          </div>
+                        </div>
+                        <div class="row r1">
+                          <div class="col s12 text">
+                            <div class="content-area">
+                              <div class="evenement">
+
+                                <p class="haut">
+                                  (Re) Découvrez les missions de l'agence Averti !
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+<!--
+                    <div class="masonry-item m1r2c">
+                        <div class="row r1 sr2 plenieres">
+                            <div class="col s12 m6 text">
+                                <div class="content-area">
+
+                                    <p><b>Rentrée citoyenne</b> pour Averti, qui était le 27 octobre au Forum national des conseils citoyens organisé par le ministère de la Ville, de la Jeunesse et des Sports. Au programme : valorisation éditoriale des débats et
+                                        animation d'ateliers.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 video">
+                                <div class="photo-citoyenne">
+                                    <img class="responsive-img rentreecitoy" src="images/rentree-citoyenne.png" alt="logo du forum rentrée citoyenne ">
+
+                                </div>
+
+                            </div>
+                        </div>
+                      </div> -->
+
+                      <div class="masonry-item m1r1c ">
+                        <div class="row r1">
+                          <div class="col s12 text">
+                            <div class="content-area">
+
+                              <p>
+                                Automne tropical pour Averti, qui participait début novembre en Martinique aux <b>5e rencontres territoriales des Antilles et de la Guyane</b>. On prépare un récit <br>« king size » de l’événement, où il a été notamment
+                                question de management public, d’accompagnement du changement et de mode projet.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
+
+                      <!-- Bloc 5 -->
+                    <!--
+            <div class="masonry-item m2r1c iframe">
+                <a class="twitter-timeline" data-height="600" href="https://twitter.com/AgenceAverti">Tweets by AgenceAverti</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-first">
+        <div class="footer-container">
+          <div class="row valign-wrapper" style="height: inherit">
+            <div class="col s12 m8 valign">
+              <span style="padding-left: 1rem;font-weight: 300;">63 rue d'Angleterre - 59000 LILLE - (+33) 03 20 13 02 02</span>
+            </div>
+            <div class="col s4 right-align">
+              <a href="http://averti.fr/" target="_blank"><img src="images/footer-logo.png" class="hide-on-small-only" style="vertical-align:middle"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+            <!--<div class="footer-second">
+        <div class="valign-wrapper" style="height: inherit">
+            <div class="valign"  style="text-align: center; width: 100%;">
+                <a class="center-align mentions" href="#" target="_blank">Lorem Ipsum</a>
+            </div>
+        </div>
+      </div>-->
+    </footer>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script src="./js/js-actu/materialize.min.js"></script>
+    <script src="./js/js-actu/masonry.pkgd.min.js"></script>
+    <script src="./js/js-actu/jquery.calendario.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/voeux.js"></script>
+    <script src="./js/Chart.bundle.js"></script>
+    <script src="./js/Chart.bundle.min.js"></script>
+    <script src="./js/Chart.js"></script>
+    <script src="./js/bar-ui.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.masonry').masonry({
+                    // set itemSelector so .grid-sizer is not used in layout
+                    itemSelector: '.masonry-item',
+                    // use element for option
+                    columnWidth: '.masonry-sizer',
+                    percentPosition: true,
+                    gutter: '.gutter-sizer'
+                  });
+        $('.sliderSmall').slider({
+          full_width: true,
+          height: 248,
+          indicators: false
+        });
+        $('.sliderBig').slider({
+          full_width: true,
+          height: 508
+        });
+        $('.arrow-left').click(function() {
+          $('.sliderSmall').slider('prev');
+        });
+        $('.arrow-right').click(function() {
+          $('.sliderSmall').slider('next');
+        });
+      });
+    </script>
+
+    <!-- CHANGEMENT TEXTE CALENDRIER -->
+    <script>
+      $(document).ready(function() {
+        $('#main-hover').hide();
+        $('.master').on('mouseenter', function() {
+          $('#main-hover').show();
+        }).on('mouseleave', function() {
+          $('#main-hover').hide();
+        });
+        $('.third').on('mouseenter', function() {
+          $('#third-grid').hide();
+          $('#third-grid-hover').show();
+        }).on('mouseleave', function() {
+          $('#third-grid').show();
+          $('#third-grid-hover').hide();
+        });
+        $(".button-collapse").sideNav();
+        $('.modal-trigger').leanModal();
+      });
+    </script>
+    <!-- FIN CHANGEMENT TEXTE CALENDRIER -->
+
+    <!-- SONDAGE -->
+    <script>
+      var ctx = document.getElementById("resultats");
+      var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ["Opt 1", "Opt 2", "Opt 3"],
+          datasets: [{
+            label: '# of Votes',
+            backgroundColor: "rgba(51,51,51,1)",
+            borderColor: "rgba(51,51,51,1)",
+            borderWidth: 1,
+            hoverBackgroundColor: "rgba(0,0,0,1)",
+            hoverBorderColor: "rgba(0,0,0,1)",
+            data: [12, 19, 3]
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        }
+      });
+    </script>
+    <script>
+      $(function($) {
+        var getVoteResults = function() {
+          $.get("vote_results.php", function(data, status) {
+            var parsedData = JSON.parse(data);
+            var resultData = [parsedData[0].yes, parsedData[0].no, parsedData[0].noanswer];
+            var ctx = document.getElementById("resultatsBloc");
+            var myChart = new Chart(ctx, {
+              type: 'bar',
+              data: {
+                labels: ["yes", "no", "no answer"],
+                datasets: [{
+                  label: '# of Votes',
+                  backgroundColor: "rgba(51,51,51,1)",
+                  borderColor: "rgba(51,51,51,1)",
+                  borderWidth: 1,
+                  hoverBackgroundColor: "rgba(0,0,0,1)",
+                  hoverBorderColor: "rgba(0,0,0,1)",
+                  data: resultData
+                }]
+              },
+              options: {
+                scales: {
+                  yAxes: [{
+                    ticks: {
+                      beginAtZero: true
+                    }
+                  }]
+                }
+              }
+            });
+            $('#vote-area').toggle();
+          });
+        }
+        $(".vote-options a").click(function() {
+          var id = $(this).parent("div").attr("id");
+          var type = $(this).attr("id");
+          $.post("vote.php", {
+            id: id,
+            type: type
+          }, function(answer) {
+            console.log(id);
+            console.log(type);
+            getVoteResults();
+          });
+
+        });
+      });
+    </script>
+    <!-- FIN SONDAGE -->
+
+    <!-- Social media - Share buttons -->
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Twitter -->
+    <script>
+      ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + '://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, 'script', 'twitter-wjs');
+    </script>
+
+    <!-- Share button LinkedIn - Blogger Config. Ref.: http://goo.gl/tC65tg -->
+    <script src='//platform.linkedin.com/in.js' type='text/javascript'>
+      lang: fr_FR
+    </script>
+
+    <!-- -ENCART LIVE -->
+    <script>
+      function init() {
+        var cusid_ele = document.getElementsByClassName('live-canvas');
+        for (var i = 0; i < cusid_ele.length; ++i) {
+          var canvas = cusid_ele[i];
+          if (canvas.getContext) {
+            var ctx = canvas.getContext("2d");
+                        // Draw triangle
+                        ctx.fillStyle = "#FABE00";
+                        ctx.beginPath();
+                        // Draw a triangle location for each corner from x:y 100,110 -> 200,10 -> 300,110 (it will return to first point)
+                        ctx.moveTo(72, 72);
+                        ctx.lineTo(0, 0);
+                        ctx.lineTo(72, 0);
+                        ctx.closePath();
+                        ctx.fill();
+
+                        ctx.rotate(Math.PI / 4);
+                        ctx.font = 'italic 16pt Arial';
+                        ctx.fillStyle = "#000000";
+                        ctx.fillText("Live", 33, -7);
+                      }
+                    }
+                  }
+                  onload = init;
+                </script>
+                <!--GOOGLE ANALYTICS-->
+                <script>
+                  (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+                      (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                  ga('create', 'UA-83086304-1', 'auto');
+                  ga('send', 'pageview');
+                </script>
+
+        <!------------------------------------------------------------------ SOCIAL MEDIA CUSTOMIZED SHARE BUTTONS ------------------------------------------------------------------------->
+        <script>
+            (function() {
+
+                var popupCenter = function(url, title, width, height) {
+                    var popupWidth = width || 640;
+                    var popupHeight = height || 320;
+                    var windowLeft = window.screenLeft || window.screenX;
+                    var windowTop = window.screenTop || window.screenY;
+                    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+                    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+                    var popupLeft = windowLeft + windowWidth / 2 - popupWidth / 2;
+                    var popupTop = windowTop + windowHeight / 2 - popupHeight / 2;
+                    var popup = window.open(url, title, 'scrollbars=yes, width=' + popupWidth + ', height=' + popupHeight + ', top=' + popupTop + ', left=' + popupLeft);
+                    popup.focus();
+                    return true;
+                };
+
+                document.querySelector('.share_facebook').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var url = this.getAttribute('data-url');
+                    var shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+                    popupCenter(shareUrl, "Partager sur facebook");
+                });
+
+                document.querySelector('.share_twitter').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var url = this.getAttribute('data-url');
+                    var shareUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.title) +
+                        "&via=agenceaverti" +
+                        "&url=" + encodeURIComponent(url);
+                    popupCenter(shareUrl, "Partager sur Twitter");
+                });
+
+                document.querySelector('.share_linkedin').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var url = this.getAttribute('data-url');
+                    var shareUrl = "https://www.linkedin.com/shareArticle?url=" + encodeURIComponent(url);
+                    popupCenter(shareUrl, "Partager sur Linkedin");
+                });
+
+            })();
+        </script>
+</body>
+
+</html>

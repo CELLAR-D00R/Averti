@@ -1,0 +1,35 @@
+
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cell canvas {
+	vertical-align: middle;
+}
+
+.canthumb {
+	border: 0px solid #222;
+}
+#main {
+  width:1190px;
+  height: 401px;
+}
+
+#maincanvas {
+	border: 0px solid #222;
+	cursor: grab;
+  margin:0 auto;
+	width:100%;
+	height:200px;
+}
+
+	.snow {
+	    height: 200px;
+	    position: absolute;
+	    width:  1188px;
+
+	    }
+}

@@ -1,0 +1,1354 @@
+body {
+    background-color: #FFFF;
+    font-family: 'Roboto', sans-serif;;
+}
+.top-nav {
+    height: 178px;
+    box-shadow: none;
+}
+.top-nav-container {
+    margin: 0 auto;
+    max-width: 1190px;
+    width: 100%
+}
+#averti-menu {
+    margin-top: -30px;
+    position: absolute;
+    right: 0;
+    color:black;
+}
+.m2r3c {
+  width: 1200px;
+height: 615px;
+}
+
+
+
+.top-nav {
+            height: 149px;
+            box-shadow: none;
+        }
+
+        .top-nav-container {
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%
+        }
+
+        #averti-menu {
+            margin: 0;
+            bottom: 0;
+            position: absolute;
+            right: 0;
+        }
+        .social-icons {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 35px !important;
+            width: 35px !important;
+            text-align: center !important;
+            line-height: 30px !important;
+            margin-top: 15px !important;
+        }
+        ul#averti-menu-social.right{
+          margin-right:10px!important;
+        }
+        .right{
+          float: right!important;
+        }
+
+        .icon-scoopit {
+          background: url("images/scoop-it.png") no-repeat;
+          width: 35px;
+          height: 35px;
+          background-size: 35px;
+          margin-top: 15px;
+      }
+
+      .icon-scoopit:hover {
+          background: url("images/scoopit-hover.png") no-repeat;
+          width: 35px;
+          background-size: 35px;
+          margin-top: 15px;
+      }
+
+      .icon-linkedin {
+          background: url("images/linkedin.png") no-repeat;
+          width: 35px;
+          height: 35px;
+          background-size: 35px;
+          margin-top: 15px;
+      }
+
+      .icon-linkedin:hover {
+          background: url("images/linkedin-hover.png") no-repeat;
+          width: 35px;
+          background-size: 35px;
+          margin-top: 15px;
+      }
+
+      ul#averti-menu-social{
+        margin-top: -110px;
+      }
+
+
+.timeline-Widget{
+  background-color: #170808;
+}
+.masonry-item {
+    border: 5px solid #ffff;
+    background-color : ;
+}
+.masonry-sizer, .masonry-item {
+    background-color: #e2e2e2;
+}
+.img-responsive img{
+  width: 80%;
+  padding-left:60px;
+  }
+
+.img-responsive2{
+  width: 100%;
+margin-top: 200px;
+
+}
+
+p.haut {
+  margin-top:60px;
+  text-align: center;
+}
+p.haut2 {
+  margin-top:30px;
+  text-align: center;
+}
+.date p{
+  margin-right: 56px;
+  padding-top: 10px;
+}
+.logodudredi {
+  width: 209px;
+  margin: auto;
+}
+p.lien-trouvailles>a{
+  background-color:white;
+  color: #a8287b;
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  border-radius:10px;
+}
+.bleue {
+    width: 80%;
+    background-color: #4ae8ce;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+}
+.blanche{
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: black;
+}
+.blanche p{
+  padding: 4px;
+}
+.bleue p{
+  text-align: center;
+  padding: 4px;
+}
+
+.evenement{
+  margin-top: -16px;
+  font-size:14px;
+}
+nav {
+  line-height: 52px !important;
+}
+a, h3.title {
+    color: #a8287b;
+}
+h2.title, h1, h2.subtitleheader {
+	line-height: 120%;
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+}
+h2.title {
+    font-size: 2rem;
+}
+
+h3.title {
+	font-size: 1.4em;
+}
+
+.top-nav {
+	background-color: #FFFF;
+}
+
+  .logo-image {
+      width: 20%;
+margin-top: 30px;
+margin-left: -19px;
+}
+.textheader {
+	display: inline-block;
+	width: 787px;
+	text-align: center;
+}
+.textheader h1 {
+	vertical-align: top;
+	margin-top: 15px;
+	font-size: 112px;
+	margin-bottom: 0;
+}
+h2.subtitleheader {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 20px;
+	/*letter-spacing: 1px;*/
+}
+#img_pinterest {
+width: 40px;
+height: 38px;
+}
+#img_pinterest:hover {
+	background: url("images/pinterest-2.png") no-repeat;
+  width: 40px;
+  height: 40px;
+	background-size: 35px;
+  display:inline-block;
+}
+
+#img_twitter {
+  width: 40px;
+  height: 40px;
+  }
+#img_twitter:hover  {
+	background: url("images/twitter2.png") no-repeat!important;
+	width: 40px;
+	background-size: 40px;
+}
+#img_scoop-it:hover {
+    background: url("images/scoopit.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+}
+#img_linkedin{
+  width: 35px;
+  height: 35px;
+  }
+
+#img_linkedin:hover {
+    background: url("images/linkedin-hover.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+    margin-top: 15px;
+}
+
+.img-title {
+    background-color: #fff;
+}
+.slider .indicators .indicator-item {
+    background-color: #ececec;
+    border: 2px solid #ececec;
+}
+.socialmain {
+    background-color: #ececec;
+}
+.socialalt {
+    background-color: #fff;
+}
+.socialmain a, .socialalt a {
+	color: #000;
+}
+.lien_viadeo {
+    color: #a8287b !important;
+}
+.twitter_share button {
+    background: url('../images/twitter-logo-silhouette.png') no-repeat;
+}
+.facebook_share button {
+    background: url('../images/facebook-letter-logo.png') no-repeat;
+}
+.share_linkedin {
+    background: url('../images/linkedin-logo.png') no-repeat;
+}
+.twitter_share button, .facebook_share button, .share_linkedin {
+    width: 50px;
+    height: 50px;
+    background-size: 45px;
+    background-position: center center;
+    border: none;
+    position: relative;
+    left: 0;
+}
+
+.title_slider {
+    height: 55px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.title_slider h2 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.slider .slides {
+    background-color: #fff;;
+}
+.diaporama-arrows {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.diaporama-arrows .arrow-right {
+    position: relative;
+    left: 255px;
+}
+.diaporama-arrows .arrow-left {
+    position: relative;
+    top: 38px;
+}
+.diaporama-arrows img {
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+}
+
+.fc-calendar .fc-row:not(.odd) > div {
+    background-color: #fff;
+}
+.fc-calendar .fc-row > div {
+    background-color: #fff;
+}
+.btn {
+    background-color: #a8287b;
+    color: #fff;
+    /*box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0)*/
+}
+
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.18),0 3px 8px 0 rgba(0,0,0,0.15);
+}
+
+.long-title .title-area {
+    height: 75px;
+    max-height: 75px;
+}
+.long-title .content-area {
+    height: 400px;
+    max-height: 400px;
+}
+.only-download {
+    height: 245px;
+    max-height: 245px;
+}
+
+/* SPECIFICITES BLOCS */
+div.edito .long-title .title-area {
+	height: 115px;
+	max-height: 115px;
+}
+
+.fondnoir {
+	background-color: #000;
+}
+.fondnoir h2.title, .fondnoir a p  {
+	color: #fff;
+	text-align: center;
+}
+.fondviolet {
+	background-color: #a8287b;
+	color: #fff;
+}
+.fondviolet h2.title {
+	color: #fff;
+}
+.fondviolet .btn {
+	background-color: #a8287b;
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    padding: 0;
+    line-height: 1.25em;
+	transition: none;
+}
+
+.fondviolethover:hover {
+	background-color: #fff;
+}
+.fondviolethover:hover .btn {
+	background-color: #fff;
+	color: #a8287b;
+}
+.fondviolethover .btn:hover {
+	color: #a8287b;
+	box-shadow: none;
+}
+.only-one-item a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+.twitter_responsive iframe#twitter-widget-0 {
+	width: 290px !important;
+	height: 100% !important;
+}
+.video2-2 .content-area {
+    height: 438px;
+    max-height: 438px;
+}
+.video2-2 .title-area {
+    padding: 0 0.75rem;
+}
+.video2-2 h2 {
+    color: #a8287b;
+}
+.m1r1c .video .title {
+    font-size: 1.3rem;
+}
+.clients {
+    background-color: #fff;
+}
+.clients .img-title {
+    background-color: #fff;
+}
+.texte_date {
+	padding: 20px;
+}
+
+.fc-calendar .fc-row > div > a > span.fc-date {
+	font-size: 20px;
+	color: #fff;
+	margin-left: 5px;
+}
+input {
+    width: 100%;
+}
+input.btn {
+    height: 36px !important;
+    line-height: 30px !important;
+    border-color: #a8287b !important;
+}
+
+.formBtn {
+    margin-top: 0.7rem;
+}
+.video iframe {
+    height: 100%;
+    width: 100%;
+}
+div.input-field {
+	margin-top: 20px;
+	display: block;
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+	padding-left: 5px;
+	max-width: 560px;
+}
+.label {
+	display: inline-block;
+	width: 20%;
+}
+.input-field input {
+	display: inline-block;
+	width: 100% !important;
+}
+.contact1-1 form input {
+    background-color: #C8C8C8;
+}
+.contact1-1 form div:last-child input {
+    background-color: #A8287B;
+}
+.contact1-1 form input::-webkit-input-placeholder {
+    color: #A8287B;
+    font-weight: bold;
+}
+.contact1-1 form input::-moz-placeholder {
+    color: #A8287B;
+    font-weight: bold;
+}
+
+.download-item {
+    color: #000;
+    margin-top: 0;
+}
+.only-one-item {
+    width: 100%;
+    padding-top: 20px;
+}
+.only-one-item img {
+    display: block;
+    float: none;
+    margin: 20px auto;
+}
+
+.liste_programme li {
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+.liste_programme span {
+	color: #a8287b;
+}
+
+.credits h3 {
+	font-size: 16px;
+}
+.coordonnees img {
+	max-width: 125px;
+display: block;
+width: 125px;
+	margin: auto;
+}
+.coordonnees p {
+	margin-top: 0;
+}
+.info-pratiques-item img {
+	width: 18px;
+}
+.fondnoir .quote-text p {
+	color: #fff;
+}
+
+.soundcloud iframe {
+	height: 230px;
+	margin-top: 10px;
+}
+
+.g-shadow-inset {
+	background-color: #fff;
+}
+
+/*reset twitter*/
+twitterwidget.twitter-tweet {
+  display: inline-block;
+    padding: 0 22px 0;
+    margin: 30px 0 10px !important;
+  max-width: 585px;
+  width: 565px !important;
+  border: none;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: none;
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+twitterwidget.twitter-tweet p {
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+
+twitterwidget.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+}
+
+twitterwidget.EmbeddedTweet {
+	max-width: 580px !important;
+	width: 580px !important;
+	border: none !important;
+}
+.EmbeddedTweet-tweet {
+	padding: 0 !important;
+	max-width: 580px !important;
+	width: 580px !important;
+	border: none !important;
+}
+.twitter-widget-1, .twitter-widget-0 {
+    height: 520px;
+}
+
+.vote-options {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.slideshare_parent .title-area {
+    height: 80px;
+    max-height: 80px;
+}
+
+.slideshare {
+    padding: 0 !important;
+}
+.slideshare iframe {
+    margin: 0;
+    width: 100%;
+    height: 248px;
+}
+.twitter_averti  {
+background-color: #333333;
+}
+.text-petit-ecran {
+  display: none;
+  padding-left: 120px;
+}
+.text-petit-ecran p{
+  font-size: 12px!important;
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width : 1200px) {
+    .top-nav {
+        width: 100%;
+        margin: auto;
+    }
+
+  .right{
+    margin-right:50px!important;
+  }
+  .m2r3c {
+    width: 1059px !important;
+    height: 567px;
+  }
+
+  .img-responsive2 {
+    width: 100%;
+    margin-top: 200px !important;
+  }
+
+  .row.r2 {
+      height: 555px;
+      max-height: 555px;
+  }
+  .snow{
+    .snow {
+  width: 100% !important;
+  height: 224px !important;
+    }
+
+}
+
+@media only screen and (max-width : 1200px) and (min-width: 1024px) {
+  .img-responsive2 {
+    margin-top: 201px !important;
+  }
+
+  .blanche p, .bleue p {
+    padding : 15px !important;
+  }
+
+    .trouvailles img {
+      width: 343px;
+    height: 248px;
+    left: 1px;
+    }
+    .trouvailles .col.s12.m6.text {
+        position: absolute;
+        right: -10px;
+    }
+
+    .input-field input {
+        max-width: 665px;
+    }
+
+    .art_img img {
+        height: 260px;
+    }
+
+    .twitter_averti iframe {
+        width: 345px !important;
+        height: inherit !important;
+        background-color: #333333;
+    }
+
+    .hashtag {
+        height: 780px;
+    }
+    .hashtag iframe, .hashtag iframe {
+        height: 780px !important;
+    }
+
+    .calendar1-1 {
+        width: 341px !important;
+    }
+
+    .diaporama-arrows .arrow-right {
+        left: 310px;
+    }
+
+    twitterwidget.twitter-tweet {
+        margin: 30px 50px 10px !important;
+        width: 566px !important;
+    }
+
+    .map1-2 iframe {
+        width: 341px;
+        height: 248px;
+    }
+
+  #snow{
+    width: 1108px!important;
+    height: 800px;
+
+  }
+  .citoyenne img{
+    padding-top: -112px!important;
+  }
+  #maincanvas {
+    border: 0px solid #222;
+    cursor: grab;
+    margin: 0 auto;
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width : 1024px) and (min-width: 961px) {
+
+    .trouvailles img {
+        width: auto;
+        height: 248px;
+        margin-top: 0px;
+    }
+    .trouvailles .col.s12.m6.text {
+        position: absolute;
+        right: -10px;
+    }
+    .m2r3c {
+    width: 779px !important;
+    height: 471px;
+
+}
+.row.r2 {
+    height: 462px;
+    max-height: 462px;
+}
+}
+@media only screen and (max-width : 1024px) {
+  .blanche p, .bleue p {
+    padding : 15px !important;
+  }
+  ul#averti-menu-social {
+    margin-left:308px;
+  }
+  .right {
+    float: none !important;
+  }
+  nav ul {
+    margin-left: 63%;
+  }
+	.textheader {
+		width: 300px;
+		margin-top: 0;
+	}
+	nav ul a {
+		padding: 0 5px;
+	}
+  .droite {
+    margin-left: 250px;
+  }
+  .row .col.m6 {
+  width: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+  nav{
+      color: #000;
+      height: 50px;
+      line-height: 50px;
+  }
+  nav ul a {
+      color: #bfbfbf !important;
+      text-transform: uppercase;
+      padding: 0 10px !important;
+  }
+  nav ul a:hover {
+      background-color:white!important;
+  }
+  nav ul li.active{
+    background-color: white!important;
+    border-top: 3px solid #a8287b;
+    margin-top: -3px;
+  }
+
+
+  nav ul li a:hover {
+      background-color: #fff;
+      color: #a8287b;
+      border-top: 3px solid #a8287b;
+      margin-top: -3px;
+  }
+  nav .nav-wrapper i {
+      font-size: 1.3rem;
+  }
+  div.col.s12.m6.text.droite{
+    width: 248px!important;
+    padding-right: -5px!important;
+  }
+  .voeux-text{
+    overflow: hidden;
+  }
+  div.photo-citoyenne {
+    width: 80%;
+    height: 206px;
+    padding-top: -7px;
+  }
+.right{
+  margin-top:-36px!important;
+  padding-left: 32px;
+
+}
+}
+
+@media only screen and (max-width : 800px) {
+
+    .top-nav {
+        width: 410px;
+        margin-top: 10px;
+    }
+    .top-nav .logo-image {
+        width:  40%;
+        margin-left: -120px;
+    }
+    .textheader {
+        width: 410px;
+        margin: 0;
+        bottom: 35px;
+        position: relative;
+    }
+    .textheader h1 {
+        margin: 15px auto;
+/*        font-size: 73px;*/
+    }
+    ul#averti-menu-social {
+        margin: auto;
+        float: none !important;
+        margin: 0;
+        position: relative;
+        bottom: 84px;
+        left: 113px;
+    }
+    .trouvailles .text {
+        width: 100% !important;
+        position: absolute;
+        bottom: 0;
+    }
+    .twitter_responsive iframe#twitter-widget-0 {
+        width: 390px !important;
+        height: 520px !important;
+    }
+    .tweet {
+        width: 390px;
+    }
+    twitterwidget.twitter-tweet {
+        margin: 20px 0 10px !important;
+        width: 351px !important;
+    }
+
+    .diaporama-arrows .arrow-right {
+        left: 345px;
+    }
+
+    .map1-2 iframe {
+        width: 377px;
+        height: 247px;
+    }
+
+    .input-field input {
+        width: 97% !important;
+    }
+
+
+    .row .col.m6 {
+      margin-left: 390px !important;
+      width: 50%;
+
+left: 0;
+right: 0;
+
+    }
+    .m2r3c{
+      width: 781px!important;
+      height: auto;
+
+    }
+    .snow{
+      width: 100%!important;
+      height: 190px!important;
+    }
+    .img-responsive2{
+      width: 100%;
+    }
+
+    div.photo-citoyenne {
+      width: 80%;
+      height: 206px;
+      padding-top: 247px;
+    }
+    div.col.s12.m6.text.droite{
+      width: 248px!important;
+      margin-left: 15px!important;
+    }
+    div.col.s12.m6.text{
+      width: 248px!important;
+      margin-left: 15px!important;
+    }
+    .text{
+      overflow: visible!important;
+    }
+
+.m2r1c {
+  height: 520px!important;
+}
+.logo-image {
+  margin-bottom: 40px;
+ }
+ .row.r2 {
+     height: 451px !important;
+     max-height: 451px;
+ }
+ .img-responsive2 {
+    width: 100%;
+    margin-top: 191px !important;
+  }
+ }
+
+/*
+    .fc-calendar .fc-row > div > a > span.fc-date {
+        margin-left: 3px;
+    }
+
+    .slideshare_parent .title-area {
+        height: 55px;
+        max-height: 55px;
+    }
+
+    twitterwidget.twitter-tweet {
+        padding: 0;
+        margin: 17px 0px !important;
+    }
+
+    .contact1-1 form input {
+        width: 97% !important;
+    }
+    .contact1-1 form div:last-child input {
+        font-size: 11px;
+        width: 100% !important;
+    }
+*/
+
+
+
+
+/*
+@media only screen and (max-width : 768px) {
+	.textheader {
+		width: 200px;
+		margin-top: 15px;
+		margin-left: 15px;
+		font-size: 14px;
+	}
+}
+*/
+
+@media only screen and (max-width : 600px) {
+  .row .col.m6 {
+    margin-left: 390px !important;
+
+  }
+  .text-petit-ecran {
+  display:block!important;
+    padding-left: 15px;
+
+  }
+
+  .text-petit-ecran p {
+    color:#a8287b;
+    margin: auto;
+    font-size: 1em;
+
+  }
+
+    .top-nav {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+    .textheader {
+        width: 265px;
+        margin-top: 0;
+        margin-left: 0;
+        bottom: 35px;
+        position: relative;
+    }
+    .textheader h1 {
+        margin: 15px auto;
+        font-size: 73px;
+    }
+    ul#averti-menu-social {
+        margin: auto;
+        float: none !important;
+        margin: 0;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+    }
+    h2.title {
+        font-size: 1.5rem;
+    }
+    .video2-2 h2.title {
+        font-size: 1.1rem;
+    }
+    .video iframe {
+        height: 194px;
+    }
+    .trouvailles .content-area {
+        margin-top: 30px;
+    }
+    .slideshare_parent .content-area {
+        margin-top: 30px;
+    }
+    .soundcloud {
+        height: 263px;
+    }
+    .diaporama-arrows .arrow-right {
+        left: 230px;
+    }
+    .tweet {
+        height: 225px;
+    }
+    .programme h3.title {
+        margin: 30px 0;
+    }
+
+    .contact1-1 form div:last-child input {
+        font-size: 11px;
+    }
+
+    .tweet {
+        width: 275px;
+    }
+
+    .map1-2 iframe {
+        width: 263px;
+        height: 236px;
+    }
+
+    .slideshare_parent .title-area {
+        height: 35px;
+        max-height: 35px;
+    }
+
+    .twitter_responsive iframe#twitter-widget-0, .twitter_responsive iframe#twitter-widget-1 {
+        height: 505px !important;
+    }
+
+    .programme.edito {
+        width: 263px;
+        height: 508px;
+    }
+    .m2r3c{
+      width: 528px;
+      height: auto;
+
+
+    }
+    .snow{
+      width: 100%!important;
+      height: 190px!important;
+    }
+    .img-responsive2{
+      width: 100%;
+      margin-top:-189px;
+    }
+    div.photo-citoyenne {
+      width: 80%;
+      height: 206px;
+      padding-top: 243px;
+    }
+
+    .m2r2c{
+      height: 670px!important;
+    }
+    .row.r2{
+      overflow: visible!important;
+    }
+    .video{
+      overflow: visible!important;
+    }
+    #snow{
+      visibility: hidden;
+    }
+    .logodudredi img{
+      width: 40%;
+    }
+    div.col.s12.m6.text.droite{
+      width: 248px!important;
+      margin-left: 15px!important;
+    }
+    div.col.s12.m6.text{
+      width: 248px!important;
+      margin-left: 15px!important;
+    }
+    .text{
+      overflow: visible!important;
+    }
+    .blanche p, .bleue p {
+      padding : 5px !important;
+    }
+    .top-nav .logo-image {
+        width: 15%;
+        margin-left: 12px;
+}
+}
+
+@media only screen and (max-width : 425px) {
+	.nav-wrapper {
+		text-align: center;
+	}
+	.textheader {
+		width: 100%;
+		margin: -40px 0 0;
+	}
+	.top-nav {
+	    height: 140px;
+	}
+
+  .m2r3c {
+      width: 281px!important;
+      height: 361px !important;
+    }
+    .img-responsive2 {
+      width: 100%;
+      margin-top: 54px !important;
+    }
+
+}
+
+@media only screen and (max-width : 412px) {
+  .text-petit-ecran {
+    display: block!important;
+    padding-left: 15px;
+  }
+    .text-petit-ecran p {
+      color:#a8287b;
+      margin: auto;
+      font-size: 1em;
+
+    }
+    .top-nav {
+        width: 324px;
+        margin-bottom: 10px;
+    }
+    .textheader {
+        width: 265px;
+        margin: 0;
+        bottom: 35px;
+        position: relative;
+    }
+    .textheader h1 {
+        margin: 15px auto;
+        font-size: 73px;
+    }
+    ul#averti-menu-social {
+        margin: auto;
+        float: none !important;
+        margin: 0;
+        position: relative;
+        bottom: -28px;
+        left: -2px;
+    }
+    .logo-image{
+      width: 40%!important;
+      margin-left: -150px;
+      margin-top: -3px;
+    }
+    .fc-calendar .fc-row > div > a > span.fc-date {
+        margin-left: 3px;
+    }
+
+    .slideshare_parent .title-area {
+        height: 55px;
+        max-height: 55px;
+    }
+
+    twitterwidget.twitter-tweet {
+        padding: 0;
+        margin: 17px 0px !important;
+    }
+
+    .contact1-1 form input {
+        width: 97% !important;
+    }
+    .contact1-1 form div:last-child input {
+        font-size: 11px;
+        width: 100% !important;
+    }
+    .row.r2 {
+    height: 352px !important;
+    max-height: 352px;
+}
+/*.m2r3c{
+
+  height: auto;
+}*/
+.snow{
+  width: 100%!important;
+  height: 190px!important;
+}
+
+.img-responsive2{
+  width: 100%;
+
+
+}
+.material-icons{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style:normal;
+  letter-spacing: normal;
+  text-transform:none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  cursor: pointer;
+  direction: ltr;
+  -moz-font-feature-settings:'liga';
+  -moz-osx-font-smoothing:grayscale;
+}
+.blanche{
+  height:150px!important ;
+}
+.blanche p{
+  font-size:0.9em!important;
+}
+nav.nav-wrapper i{
+  font-size: 1.5rem;
+}
+nav.button-collapse i{
+  height:56px;
+  line-height:56px;
+}
+
+nav.button-collapse{
+  float:left;
+  position:relative;
+  z-index:1;
+  height:56px;
+}
+nav.button-collapse:hover{
+  border-top: 0!important;
+}
+nav.nav-wrapper i{
+  display: block;
+  font-size: 2rem;
+}
+nav ul li a:hover{
+  background-color: #fff;
+  color:#a8287b;
+  border-top: 3px solid;
+  margin-top:-3px;
+}
+.side-nav a{
+  color:#444!important;
+  display: block!important;
+  height: 64px!important;
+  line-height: 64px!important;
+}
+.logodudredi img{
+  width: 40%;
+}
+.col.s12.m6 p{
+  margin-left: -12px;
+  margin-top: -80px;
+}
+#snow{
+  visibility: hidden;
+}
+.m2r2c{
+  height: 670px!important;
+}
+.m2r3c {
+    width: 281px!important;
+    height: 361px !important;
+  }
+  .img-responsive2 {
+    width: 100%;
+    margin-top: 13px !important;
+  }
+.texte-voeux{
+  width: 100%;
+}
+.text-voeux p{
+  color:black;
+}
+.video{
+  overflow: visible!important;
+}
+.row.r2{
+  overflow: visible!important;
+}
+.logodudredi img{
+  margin-top:-18px;
+}
+.texte-voeux {
+  width: 100%;
+  height: auto;
+
+}
+div.col.s12.m6.text.droite{
+  width: 248px!important;
+  margin-left: 15px!important;
+}
+div.col.s12.m6.text{
+  width: 248px!important;
+  margin-left: 15px!important;
+}
+.text{
+  overflow: visible!important;
+}
+.voeux-text{
+  width: 100%;
+  height: auto;
+  padding-left: 149px;
+}
+.twitter_averti{
+  padding-top: -16px!important;
+}
+
+div.photo-citoyenne {
+  width: 80%;
+  height: 206px;
+  padding-top: 8px;
+}
+.art_img{
+  height: 506px!important;
+}
+.top-nav {
+  height: 173px;
+}
+#averti-menu-social{
+
+
+}
+#averti-menu-social ul li a{
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+nav ul li {
+
+margin: -5px !important;
+width:20%;
+}
+
+}

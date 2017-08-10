@@ -1,0 +1,253 @@
+.bouton {
+padding: 10px 25px;
+background: #a8287b;
+color: #FFf;
+font-weight: bold;
+font-size: 18px;
+}
+.bouton:hover {
+background: #bd93ae;
+color: #fff;
+}
+
+nav {
+     background-color: transparent !important;
+     box-shadow: none;
+}
+
+article {
+     width: 70%;
+     margin: auto;
+     background-color: #f5f5f5;
+     /*padding: 2%;*/
+}
+
+article p {
+     font-family: 'Roboto', sans-serif;
+     margin-left: 5%;
+}
+
+figure {
+     margin-left: 0;
+     margin-right: 0;
+}
+
+figure.big {
+     width: 84%;
+}
+
+.bloc {
+     margin-top: 2%;
+}
+
+section.blogArticle {
+     display: inline-block;
+     vertical-align: top;
+     padding: 2%;
+     width: 45%;
+     margin-right: 11%;
+     float: right;
+     margin-top: 7%;
+}
+
+figure img {
+     margin-top: 40px;
+     width: 50%;
+     display: inline-block;
+     float: left;
+     margin-left: 2%;
+     min-width: 334px;
+     min-height: 223px;
+}
+
+.conclusion {
+     font-family: 'Oswald', sans-serif;
+     font-size: 34px;
+     color: black;
+     margin-left: 2%;
+     display: inline-block;
+}
+
+header h4 {
+     background-color: #FECC00;
+     text-transform: uppercase;
+     color: #fff;
+     padding: 5px;
+     font-size: 15px;
+     margin-top: 0px;
+}
+
+header nav div h2 {
+     color: #a8287b;
+     text-transform: uppercase;
+     width: 95%;
+     font-size: 43px;
+     text-transform: uppercase;
+     padding-top: 25px;
+     font-family: 'Oswald', sans-serif;
+     text-align: center;
+     margin-left: -13%;
+}
+
+h2 {
+     font-family: 'Oswald', sans-serif;
+     font-size: 34px;
+     color: black;
+     line-height: 149%;
+     margin-left: 1%;
+}
+
+div h2 {
+     color: black;
+     text-transform: uppercase;
+     width: 95%;
+     font-size: 34px;
+     text-transform: uppercase;
+     padding-top: 19px;
+     font-family: 'Oswald', sans-serif;
+}
+
+.top {
+     height: 1300px;
+}
+
+.top div.chapeau {
+     font-size: 24px;
+     line-height: 28px;
+     color: grey;
+     padding: 9px 15px;
+     display: inline-block;
+}
+
+figcaption {
+     position: relative;
+     float: left;
+}
+
+.category-recherche figcaption {
+     color: #FECC00;
+}
+
+.baton {
+     position: absolute;
+     bottom: -2px;
+     left: 20px;
+     padding: 45px 2px 2px 2px;
+     z-index: 999;
+     color: #FFF;
+}
+
+article.category-recherche span.baton.dossiers {
+     background-color: #FECC00;
+}
+
+.article figcaption, figcaption.doss.big {
+     bottom: 0;
+     left: 0;
+     padding-left: 40px;
+     opacity: 1;
+     overflow: visible;
+}
+
+figcaption.big, .blogArticle figcaption.big, aside figcaption.big {
+     width: 100%;
+     box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1200px) {
+     header nav div h2 {
+          color: #a8287b;
+          text-transform: uppercase;
+          width: 107%;
+          font-size: 42px;
+          text-transform: uppercase;
+          padding-top: 16px;
+          font-family: 'Oswald', sans-serif;
+          padding-left: 0%;
+     }
+     section.blogArticle {
+          display: inline-block;
+          vertical-align: top;
+          padding: 2%;
+          width: 44%;
+          margin-right: 11%;
+          float: right;
+          margin-top: 3%;
+     }
+     h2.conclusion {
+          font-family: 'Oswald', sans-serif;
+          line-height: 0;
+          margin-left: 1%;
+     }
+     top {
+          height: 1223px;
+     }
+}
+
+@media only screen and (max-width: 992px) {
+     .top {
+          height: 2300px;
+     }
+     figure img {
+          width: 113%;
+          float: none;
+          margin-left: 3%;
+          margin-right: 3%;
+     }
+     section.blogArticle {
+          vertical-align: top;
+          padding: 2%;
+          width: 98%;
+          margin-right: 4%;
+          margin-left: 4%;
+          float: none;
+     }
+     article p {
+          margin-left: 0;
+     }
+     header nav div h2 {
+          color: #a8287b;
+          text-transform: uppercase;
+          width: 107%;
+          font-size: 35px;
+          text-transform: uppercase;
+          padding-top: 16px;
+          font-family: 'Oswald', sans-serif;
+          padding-left: 13%;
+     }
+}
+
+@media only screen and (max-width: 600px) {
+     .top {
+          height: 1981px;
+     }
+     figure img {
+          width: 100%;
+          float: none;
+
+     }
+     section.blogArticle {
+          vertical-align: top;
+          padding: 2%;
+          width: 98%;
+          margin-right: 4%;
+          margin-left: 4%;
+          float: none;
+     }
+     article p {
+          margin-left: 0;
+     }
+     header nav div h2 {
+          width: 107%;
+          font-size: 21px;
+          text-transform: uppercase;
+          padding: 16px;
+          font-family: 'Oswald', sans-serif;
+     }
+h2.conclusion {
+	font-size: 30px;
+		 line-height: 35px;
+		 padding-top: 32%;
+		 padding-left: 2%;
+	 }
+}

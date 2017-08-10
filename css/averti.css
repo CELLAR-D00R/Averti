@@ -1,0 +1,765 @@
+body {
+    background-color: #e1d6d6;
+    font-family: 'Roboto', sans-serif;;
+}
+.masonry-item {
+    border: 5px solid #e1d6d6;
+}
+.masonry-sizer, .masonry-item {
+    background-color: #fff;
+}
+
+a, h3.title {
+    color: #a8287b;
+}
+h2.title, h1, h2.subtitleheader {
+	line-height: 120%;
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+}
+h2.title {
+    font-size: 2rem;
+}
+
+h3.title {
+	font-size: 1.4em;
+}
+
+.top-nav {
+	background-color: #e1d6d6;
+}
+.logo-image {
+	width: 15%;
+	/*margin-top: 20px;*/
+}
+.textheader {
+	display: inline-block;
+	width: 787px;
+	text-align: center;
+}
+.textheader h1 {
+	vertical-align: top;
+	margin-top: 15px;
+	font-size: 112px;
+	margin-bottom: 0;
+}
+h2.subtitleheader {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 20px;
+	/*letter-spacing: 1px;*/
+}
+ul#averti-menu-social {
+	margin-top: 110px;
+}
+.icon_pinterest {
+	background: url("../images/pinterest.png") no-repeat;
+	width: 35px;
+	height: 35px;
+	background-size: 35px;
+	margin-top: 15px;
+}
+.icon_twitter {
+	background: url("../images/twitter.png") no-repeat;
+	width: 35px;
+	height: 35px;
+	background-size: 35px;
+	margin-top: 15px;
+}
+.icon_pinterest:hover{
+	background: url("../images/pinterest-2.png") no-repeat;
+	width: 35px;
+	height: 35px;
+	background-size: 35px;
+	margin-top: 15px;
+}
+.icon_twitter:hover  {
+	background: url("../images/twitter2.png") no-repeat;
+	width: 35px;
+	background-size: 35px;
+	margin-top: 15px;
+}
+.icon_scoopit {
+    background: url("../images/scoop-it.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+    margin-top: 15px;
+}
+.icon_scoopit:hover {
+	background: url("../images/scoop-it-2.png") no-repeat;
+	width: 35px;
+	background-size: 35px;
+	margin-top: 15px;
+}
+.icon_linkedin {
+    background: url("../images/in.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+    margin-top: 15px;
+}
+.icon_linkedin:hover {
+    background: url("../images/in2.png") no-repeat;
+    width: 35px;
+    background-size: 35px;
+    margin-top: 15px;
+}
+.img-title {
+    background-color: #fff;
+}
+.slider .indicators .indicator-item {
+    background-color: #ececec;
+    border: 2px solid #ececec;
+}
+.socialmain {
+    background-color: #ececec;
+}
+.socialalt {
+    background-color: #fff;
+}
+.socialmain a, .socialalt a {
+	color: #000;
+}
+.lien_viadeo {
+    color: #a8287b !important;
+}
+.twitter_share button {
+    background: url('../images/twitter-logo-silhouette.png') no-repeat;
+}
+.facebook_share button {
+    background: url('../images/facebook-letter-logo.png') no-repeat;
+}
+.share_linkedin {
+    background: url('../images/linkedin-logo.png') no-repeat;
+}
+.twitter_share button, .facebook_share button, .share_linkedin {
+    width: 50px;
+    height: 50px;
+    background-size: 45px;
+    background-position: center center;
+    border: none;
+    position: relative;
+    left: 0;
+}
+
+.title_slider {
+    height: 55px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.title_slider h2 {    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.slider .slides {
+    background-color: #fff;;
+}
+.diaporama-arrows {    
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.diaporama-arrows .arrow-right {
+    position: relative;
+    left: 255px;
+}
+.diaporama-arrows .arrow-left {
+    position: relative;
+    top: 38px;
+}
+.diaporama-arrows img {
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+}
+
+.fc-calendar .fc-row:not(.odd) > div {
+    background-color: #fff;
+}
+.fc-calendar .fc-row > div {
+    background-color: #fff;
+}
+.btn {
+    background-color: #a8287b;
+    color: #fff;
+    /*box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0)*/
+}
+
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.18),0 3px 8px 0 rgba(0,0,0,0.15);
+}
+
+.long-title .title-area {
+    height: 75px;
+    max-height: 75px;
+}
+.long-title .content-area {
+    height: 400px;
+    max-height: 400px;
+}
+.only-download {
+    height: 245px;
+    max-height: 245px;
+}
+
+/* SPECIFICITES BLOCS */
+div.edito .long-title .title-area {
+	height: 115px;
+	max-height: 115px;
+}
+
+.fondnoir {
+	background-color: #000;
+}
+.fondnoir h2.title, .fondnoir a p  {
+	color: #fff;
+	text-align: center;
+}
+.fondviolet {
+	background-color: #a8287b;
+	color: #fff;
+}
+.fondviolet h2.title {
+	color: #fff;
+}
+.fondviolet .btn {
+	background-color: #a8287b;	
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    padding: 0;
+    line-height: 1.25em;
+	transition: none;
+}
+
+.fondviolethover:hover {
+	background-color: #fff;
+}
+.fondviolethover:hover .btn {
+	background-color: #fff;
+	color: #a8287b;
+}
+.fondviolethover .btn:hover {
+	color: #a8287b;
+	box-shadow: none;
+}
+.only-one-item a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+.twitter_responsive iframe#twitter-widget-0 {
+	width: 290px !important;
+	height: 100% !important;
+}
+.video2-2 .content-area {
+    height: 438px;
+    max-height: 438px;
+}
+.video2-2 .title-area {
+    padding: 0 0.75rem;
+}
+.video2-2 h2 {
+    color: #a8287b;
+}
+.m1r1c .video .title {
+    font-size: 1.3rem;
+}
+.clients {
+    background-color: #fff;
+}
+.clients .img-title {
+    background-color: #fff;
+}
+.texte_date {
+	padding: 20px;
+}
+
+.fc-calendar .fc-row > div > a > span.fc-date {
+	font-size: 20px;
+	color: #fff;
+	margin-left: 5px;
+}
+input {
+    width: 100%;
+}
+input.btn {
+    height: 36px !important;
+    line-height: 30px !important;
+    border-color: #a8287b !important;
+}
+
+.formBtn {
+    margin-top: 0.7rem;
+}
+.video iframe {
+    height: 100%;
+    width: 100%;
+}
+div.input-field {
+	margin-top: 20px;
+	display: block;
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+	padding-left: 5px;
+	max-width: 560px;
+}
+.label {
+	display: inline-block;
+	width: 20%;
+}
+.input-field input {
+	display: inline-block;
+	width: 100% !important;	
+}
+.contact1-1 form input {
+    background-color: #C8C8C8;
+}
+.contact1-1 form div:last-child input {
+    background-color: #A8287B;
+}
+.contact1-1 form input::-webkit-input-placeholder {
+    color: #A8287B;
+    font-weight: bold;
+}
+.contact1-1 form input::-moz-placeholder {
+    color: #A8287B;
+    font-weight: bold;
+}
+
+.download-item {
+    color: #000;
+    margin-top: 0;
+}
+.only-one-item {
+    width: 100%;
+    padding-top: 20px;
+}
+.only-one-item img {
+    display: block;
+    float: none;
+    margin: 20px auto;
+}
+
+.liste_programme li {
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+.liste_programme span {
+	color: #a8287b;
+}
+
+.credits h3 {
+	font-size: 16px;
+}
+.coordonnees img {
+	max-width: 125px;
+display: block;
+width: 125px;
+	margin: auto;
+}
+.coordonnees p {
+	margin-top: 0;
+}
+.info-pratiques-item img {
+	width: 18px;
+}
+.fondnoir .quote-text p {
+	color: #fff;
+}        
+
+.soundcloud iframe {
+	height: 230px;
+	margin-top: 10px;
+}
+
+.g-shadow-inset {
+	background-color: #fff;
+}
+
+/*reset twitter*/
+twitterwidget.twitter-tweet {
+  display: inline-block;
+    padding: 0 22px 0;
+    margin: 30px 0 10px !important;
+  max-width: 585px;
+  width: 565px !important;
+  border: none;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: none;
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+ 
+twitterwidget.twitter-tweet p {
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+ 
+twitterwidget.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+}
+
+twitterwidget.EmbeddedTweet {
+	max-width: 580px !important;
+	width: 580px !important;
+	border: none !important;	
+}
+.EmbeddedTweet-tweet {
+	padding: 0 !important;
+	max-width: 580px !important;
+	width: 580px !important;
+	border: none !important;
+}
+.twitter-widget-1, .twitter-widget-0 {
+    height: 520px;
+}
+
+.vote-options {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.slideshare_parent .title-area {
+    height: 80px;
+    max-height: 80px;
+}
+
+.slideshare {
+    padding: 0 !important;
+}
+.slideshare iframe {
+    margin: 0;
+    width: 100%;
+}
+
+/* responsive */
+
+@media only screen and (max-width : 1200px) {
+    .top-nav {
+        width: 1050px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width : 1200px) and (min-width: 1024px) {
+    .trouvailles img {
+        width: auto;
+        height: 248px;
+        left: -20px;
+    }
+    .trouvailles .col.s12.m6.text {
+        position: absolute;
+        right: -10px;
+    }
+    
+    .input-field input {
+        max-width: 665px;
+    }
+    
+    .art_img img {
+        height: 260px;
+    }
+    
+    .twitter_averti iframe {
+        width: 345px !important;
+        height: inherit !important;
+    }
+    
+    .hashtag {
+        height: 780px;
+    }
+    .hashtag iframe, .hashtag iframe {
+        height: 780px !important;
+    }
+    
+    .calendar1-1 {
+        width: 341px !important;
+    }
+    
+    .diaporama-arrows .arrow-right {
+        left: 310px;
+    }
+    
+    twitterwidget.twitter-tweet {
+        margin: 30px 50px 10px !important;
+        width: 566px !important;
+    }
+    
+    .map1-2 iframe {
+        width: 341px;
+        height: 248px;
+    }
+}
+
+@media only screen and (max-width : 1024px) and (min-width: 961px) {
+    .trouvailles img {
+        width: auto;
+        height: 248px;
+        left: -20px;
+    }
+    .trouvailles .col.s12.m6.text {
+        position: absolute;
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+	.textheader {
+		width: 300px;
+		margin-top: 0;
+	}
+	nav ul a {
+		padding: 0 5px;
+	}
+}
+
+@media only screen and (max-width : 800px) {
+    .top-nav {
+        width: 410px;
+        margin-bottom: 170px;
+        margin-top: 10px;
+    }
+    .top-nav .logo-image {
+        width:  40%;
+    }
+    .textheader {
+        width: 410px;
+        margin: 0;
+        bottom: 35px;
+        position: relative;
+    }
+    .textheader h1 {
+        margin: 15px auto;
+/*        font-size: 73px;*/
+    }
+    ul#averti-menu-social {
+        margin: auto;
+        float: none !important;
+        margin: 0;
+        position: relative;
+        bottom: 30px;
+        left: 90px;
+    }
+    .trouvailles .text {
+        width: 100% !important;
+        position: absolute;
+        bottom: 0;
+    }
+    .twitter_responsive iframe#twitter-widget-0 {
+        width: 390px !important;
+        height: 520px !important;
+    }
+    .tweet {
+        width: 390px;
+    }
+    twitterwidget.twitter-tweet {
+        margin: 20px 0 10px !important;
+        width: 351px !important;
+    }
+    
+    .diaporama-arrows .arrow-right {
+        left: 345px;
+    }
+    
+    .map1-2 iframe {
+        width: 377px;
+        height: 247px;
+    }
+    
+    .input-field input {
+        width: 97% !important;
+    }
+    
+    .art_img {
+        width: 780px;
+        height: 260px;
+    }
+/*
+    .fc-calendar .fc-row > div > a > span.fc-date {
+        margin-left: 3px;
+    }
+
+    .slideshare_parent .title-area {
+        height: 55px;
+        max-height: 55px;
+    }
+
+    twitterwidget.twitter-tweet {
+        padding: 0;
+        margin: 17px 0px !important;
+    }
+
+    .contact1-1 form input {
+        width: 97% !important; 
+    }
+    .contact1-1 form div:last-child input {
+        font-size: 11px;
+        width: 100% !important; 
+    }
+*/
+
+}
+
+
+/*
+@media only screen and (max-width : 768px) {
+	.textheader {
+		width: 200px;
+		margin-top: 15px;
+		margin-left: 15px;
+		font-size: 14px;
+	}
+}
+*/
+
+@media only screen and (max-width : 600px) {
+    .top-nav {
+        width: 265px;
+        margin-bottom: 100px;
+    }
+    .textheader {
+        width: 265px;
+        margin-top: 0;
+        margin-left: 0;
+        bottom: 35px;
+        position: relative;
+    }
+    .textheader h1 {
+        margin: 15px auto;
+        font-size: 73px;
+    }
+    ul#averti-menu-social {
+        margin: auto;
+        float: none !important;
+        margin: 0;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+    }
+    h2.title {
+        font-size: 1.5rem;
+    }
+    .video2-2 h2.title {
+        font-size: 1.1rem;
+    }
+    .video iframe {
+        height: 194px;
+    }
+    .trouvailles .content-area {
+        margin-top: 30px;
+    }
+    .slideshare_parent .content-area {
+        margin-top: 30px;
+    }
+    .soundcloud {
+        height: 263px;
+    }
+    .diaporama-arrows .arrow-right {
+        left: 230px;
+    }
+    .tweet {
+        height: 225px;
+    }
+    .programme h3.title {
+        margin: 30px 0;
+    }
+    
+    .contact1-1 form div:last-child input {
+        font-size: 11px;
+    }
+    
+    .tweet {
+        width: 275px;
+    }
+    
+    .map1-2 iframe {
+        width: 263px;
+        height: 236px;
+    }
+    
+    .slideshare_parent .title-area {
+        height: 35px;
+        max-height: 35px;
+    }
+    
+    .twitter_responsive iframe#twitter-widget-0, .twitter_responsive iframe#twitter-widget-1 {
+        height: 505px !important;
+    }
+    
+    .programme.edito {
+        width: 263px;
+        height: 508px;
+    }
+
+}
+
+@media only screen and (max-width : 425px) {
+	.nav-wrapper {
+		text-align: center;
+	}
+	.textheader {
+		width: 100%;
+		margin: -40px 0 0;
+	}
+	.top-nav {
+	    height: 190px;
+	}
+}
+
+@media only screen and (max-width : 412px) {
+    .top-nav {
+        width: 265px;
+        margin-bottom: 100px;
+    }
+    .textheader {
+        width: 265px;
+        margin: 0;
+        bottom: 35px;
+        position: relative;
+    }
+    .textheader h1 {
+        margin: 15px auto;
+        font-size: 73px;
+    }
+    ul#averti-menu-social {
+        margin: auto;
+        float: none !important;
+        margin: 0;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+    }
+    .fc-calendar .fc-row > div > a > span.fc-date {
+        margin-left: 3px;
+    }
+    
+    .slideshare_parent .title-area {
+        height: 55px;
+        max-height: 55px;
+    }
+    
+    twitterwidget.twitter-tweet {
+        padding: 0;
+        margin: 17px 0px !important;
+    }
+    
+    .contact1-1 form input {
+        width: 97% !important; 
+    }
+    .contact1-1 form div:last-child input {
+        font-size: 11px;
+        width: 100% !important; 
+    }
+    
+
+    
+}

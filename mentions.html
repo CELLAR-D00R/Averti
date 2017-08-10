@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="avertiApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="avertiApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="avertiApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="avertiApp" class="no-js"> <!--<![endif]-->
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBRCQTK');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <title>Agence averti - conseil en contenu editorial</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="google-site-verification" content="nWJm-AOcCgzZRuMGYM7EkCRNhIPMh-JwjCD4CZAFgUU" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="vendor/fontello/css/fontello.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+        /* ScoopIt icon */
+            .icon-scoopit {
+                background: url("./images/scoopit.png") no-repeat;
+                width: 35px;
+                height: 35px;
+                background-size: 35px;
+                margin-top: 15px;
+            }
+            .icon-scoopit:hover {
+                background: url("./images/scoopit-hover.png") no-repeat;
+                width: 35px;
+                background-size: 35px;
+                margin-top: 15px;
+            }
+        /* Linkedin icon */
+            .icon-linkedin {
+                background: url("./images/linkedin.png") no-repeat;
+                width: 35px;
+                height: 35px;
+                background-size: 35px;
+                margin-top: 15px;
+            }
+            .icon-linkedin:hover {
+                background: url("./images/linkedin-hover.png") no-repeat;
+                width: 35px;
+                background-size: 35px;
+                margin-top: 15px;
+            }
+        /* Flèche haut de page */
+            .arrow {
+                float: right;
+                right: 25px;
+                position: fixed;
+                font-size: 50px;
+                z-index: 1000000;
+                bottom: 100px;
+                color: #a8287b;
+            }
+        @font-face {
+            font-family: "Museo";
+            src: url("fonts/Museo-300.otf") format("opentype");
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: "MuseoSans";
+            src: url("fonts/MuseoSans-300.otf") format("opentype");
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: "MuseoSans";
+            src: url("fonts/MuseoSans-500.otf") format("opentype");
+            font-weight: 500;
+        }
+        @font-face {
+            font-family: "MuseoSans";
+            src: url("fonts/MuseoSans-500Italic.otf") format("opentype");
+            font-weight: 500;
+            font-style: italic;
+        }
+        .intro-text {
+            font-family: "Museo", sans-serif;
+            font-size: 22px;
+        }
+        .top-nav {
+            height: 128px;
+            box-shadow: none;
+        }
+        .top-nav-container {
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%
+        }
+        #averti-menu {
+            margin: 0;
+            bottom: 0;
+            position: absolute;
+            right: 0;
+        }
+        nav{
+            color: #000;
+            background-color: #fff;
+        }
+        nav ul a {
+            color: #bfbfbf;
+            text-transform: uppercase;
+        }
+        nav ul li:hover, nav ul li.active, nav ul li.active a, nav ul li a:hover {
+            background-color: #fff;
+            color: #a8287b;
+            border-top: 3px solid;
+            margin-top: -3px;
+        }
+        nav .nav-wrapper i {
+            font-size: 1.5rem;
+        }
+        .slider .indicators .indicator-item.active {
+            background-color: #a8287b
+        }
+        .slider .indicators {
+            position: absolute;
+            text-align: center;
+            left: auto;
+            right: 2em;
+            bottom: 200px;
+            margin: 0;
+            z-index: 10000
+        }
+        @media only screen and (max-width : 600px) {
+            .top-nav {
+                height: 60px!important;
+            }
+/*
+            img.logo-image {
+                width: 25%!important;
+            }
+*/
+        }
+        .slider .indicators .indicator-item {
+            display: block;
+            margin: 12px 12px;
+            background-color: #fff;
+        }
+        @media only screen and (min-width : 993px) {
+            .conseiller {
+                background-image: url("images/quote.png");
+                background-repeat: no-repeat;
+            }
+            .communiquer {
+                background-image: url("images/quote2.png");
+                background-repeat: no-repeat;
+            }
+        }
+
+        .conseiller-section {
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 75%;
+        }
+        .sections-title {
+            font-family: "MuseoSans", sans-serif;
+            font-weight: 500;
+            font-size: 34px;
+            color: #a8287b;
+            margin: 2.6rem 0 1.68rem 0;
+        }
+        .sections-subtitle {
+            font-family: "MuseoSans", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: #a8287b;
+        }
+        .divider {
+            height: 3px;
+            background: #e0e0e0; /* Old browsers */
+            background: -moz-linear-gradient(left, #ffffff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #ffffff 0%,#e0e0e0 10%,#e0e0e0 80%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #ffffff 0%,#e0e0e0 10%,#e0e0e0 80%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+        }
+        .divider-vertical {
+            border-width: 0 3px 0 0;
+            border-style: solid;
+            -webkit-border-image:
+            -webkit-linear-gradient(#fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%) 1 100%;
+            -moz-border-image:
+            -moz-linear-gradient(#fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%) 1 100%;
+            -o-border-image:
+            -o-linear-gradient(#fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%) 1 100%;
+            border-image:
+            linear-gradient(to bottom, #fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%)) 1 100%;
+
+        }
+        a {
+            color: #a8287b;
+        }
+        .text-pink {
+            color: #a8287b;
+        }
+        .contacter-btn {
+            border-top: 2px solid #a8287b;
+            border-left: 2px solid #a8287b;
+            border-right: 2px solid #a8287b;
+        }
+        .contacter-btn:hover {
+            background-color: #a8287b;
+        }
+        .contacter-btn:hover .first {
+            color: #fff;
+        }
+        .first {
+            font-family: Arial;
+            font-size: 19.78px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #a8287b;
+            padding: 15px 0px 0px 0px;
+            margin: 0;
+            text-align: center;
+        }
+        .second {
+            font-family: "MuseoSans";
+            font-size: 14px;
+            font-weight: 500;
+            padding: 0px 0px 5px 0px;
+            margin: 0;
+            text-align: center;
+        }
+        .second-section {
+            background-color: #ececec;
+        }
+        .second-section-helper {
+            border-top: 3rem solid #ececec;
+            background-color: #fff;
+            border-bottom: 3rem solid #ececec;
+        }
+        .museo-300-22 {
+            font-family: "MuseoSans";
+            font-size: 22px;
+            font-weight: 300;
+        }
+        .museo-500-14 {
+            font-family: "MuseoSans";
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .footer-first {
+            height: 50px;
+            background-color: #a8287b;
+        }
+        .footer-container {
+            height: 50px;
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%;
+            color: #fff;
+        }
+        .footer-second {
+            height: 30px;
+        }
+        .mentions {
+            color: #000;
+            font-size: 11px;
+        }
+        .averti-link {
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .averti-link:hover {
+            text-decoration: none;
+        }
+        .modal .modal-footer {
+            background-color: #a8287b;
+            border-radius: 0 0 0px 0px;
+        }
+        .modal {
+            border: 1rem solid #a8287b;
+            border-radius: 0px;
+        }
+        .modal .modal-content {
+            padding: 10px;
+            padding-bottom: 0px;
+        }
+        .text-white {
+            color: #fff!important;;
+        }
+        /* label color */
+        .input-field label {
+            color: #8b8b8b;
+        }
+        input[type=text]:focus:not([readonly]), input[type=email]:focus input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+            border-bottom: 0;
+            box-shadow: 0 1px 0 0 #8b8b8b;
+        }
+        input[type=text], input[type=email] {
+            background-color: #ececec;
+            border-bottom: 0;
+            border-left: 10px solid #ececec;
+        }
+        /* label focus color */
+        input[type=text]:focus + label,
+        input[type=email]:focus + label{
+            color: #8b8b8b;
+        }
+        /* label underline focus color */
+        input[type=text]:focus,
+        input[type=email]:focus{
+            border-bottom: 1px solid #8b8b8b;
+            box-shadow: 0 1px 0 0 #8b8b8b;
+        }
+        [type="checkbox"] + label {
+            text-transform: uppercase;
+        }
+        [type="checkbox"].filled-in:not(:checked) + label:after {
+            border: 2px solid #8b8b8b;
+        }
+        [type="checkbox"].filled-in:checked + label:after {
+            border: 2px solid #a8287b;
+            background-color: #a8287b;
+        }
+        .side-nav li {
+            padding: 0
+        }
+        .side-nav li:hover, .side-nav li.active {
+            background-color: #fff;
+        }
+        @media only screen and (max-width: 600px) {
+            nav ul li:hover, nav ul li.active, nav ul li.active a, nav ul li a:hover {
+                border-top: 0!important;
+                margin-top: 0!important;
+            }
+            img.logo-image {
+                height: 60%!important;
+                margin-top: 12px!important;
+            }
+        }
+        .footer-first {
+            height: 50px;
+            background-color: #a8287b;
+        }
+        .footer-container {
+            height: 50px;
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%;
+            color: #fff;
+        }
+        .footer-second {
+            height: 30px;
+        }
+        .mentions {
+            color: #000;
+            font-size: 11px;
+        }
+        .clientsbg {
+            background-color: #a8287b;
+        }
+        .client-container {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .client-btn {
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            background-color: #6b3257;
+            border: none;
+            border-radius: 0px;
+            display: inline-block;
+            height: 50px;
+            line-height: 1.5;
+            outline: 0;
+            padding: .2rem 2rem;
+            text-transform: uppercase;
+            vertical-align: middle;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .text-white {
+            color: #fff!important;;
+        }
+        #clientGallery {
+            margin: auto;
+        }
+        #clientGallery img {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+
+
+        .side-nav li {
+            padding: 0
+        }
+        .side-nav li:hover, .side-nav li.active {
+            background-color: #fff;
+        }
+        @media only screen and (max-width: 600px) {
+            nav ul li:hover, nav ul li.active, nav ul li.active a, nav ul li a:hover {
+                border-top: 0!important;
+                margin-top: 0!important;
+            }
+        }
+
+        @media only screen and (max-width : 600px) {
+            .top-nav {
+                height: 60px!important;
+            }
+/*
+            img.logo-image {
+                width: 25%!important;
+            }
+*/
+        }
+
+        #clientsImgContainer {
+            position: relative;height: 470px;padding: 0 !important;overflow: hidden
+        }
+
+        .clientImg {
+            position: absolute;min-height: 100%;min-width: 100%
+        }
+
+        @media only screen and (max-width: 600px) {
+            #clientsImgContainer {
+                position: relative;height: 280px;padding: 0 !important;overflow: hidden
+            }
+        }
+
+        input[type="submit"] {
+            background-color: #a8287b;
+            font-size: 26px;text-transform: uppercase; color: #fff;
+            border: 0;
+            width: 100%;
+        }
+        textarea.materialize-textarea {
+            border-bottom: 0;
+            border-left: 10px solid #ececec;
+            background-color: #ececec;
+        }
+        textarea.materialize-textarea:focus {
+            border-bottom: 0;
+            box-shadow: 0 1px 0 0 #8b8b8b;
+        }
+        input[type=text].invalid, input[type=text]:focus.invalid, input[type=password].invalid, input[type=password]:focus.invalid, input[type=email].invalid, input[type=email]:focus.invalid, input[type=url].invalid, input[type=url]:focus.invalid, input[type=time].invalid, input[type=time]:focus.invalid, input[type=date].invalid, input[type=date]:focus.invalid, input[type=datetime-local].invalid, input[type=datetime-local]:focus.invalid, input[type=tel].invalid, input[type=tel]:focus.invalid, input[type=number].invalid, input[type=number]:focus.invalid, input[type=search].invalid, input[type=search]:focus.invalid, textarea.materialize-textarea.invalid, textarea.materialize-textarea:focus.invalid {
+            border-bottom: 0px solid #F44336;
+            box-shadow: 0 1px 0 0 #F44336;
+        }
+        input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid {
+            border-bottom: 0px solid #4CAF50;
+            box-shadow: 0 1px 0 0 #4CAF50;
+        }
+
+        @media only screen and (max-width: 400px) {
+            .footer-first, .footer-container{
+                height: 80px;
+            }
+        }
+        .success {
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+            color: #468847;
+            margin-bottom: 15px;
+        }
+        .error {
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+            color: #b94a48;
+            margin-bottom: 15px;
+        }
+
+.social-icons {
+    border: 2px solid;
+    border-radius: 50%;
+    height: 35px !important;
+    width: 35px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    margin-top: 15px !important;
+}
+.icon-twitter.social-icons{
+    font-size: 1rem;
+}
+.contact-icon {
+    vertical-align:middle;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+    </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBRCQTK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="top-nav">
+        <nav class="top-nav top-nav-container">
+            <div class="nav-wrapper">
+                <a class="page-title" href="index"><img class="logo-image" src="images/logo_averti.png" alt="logo de l'agence averti" height="85;" style="margin-top: 25px;"></a>
+                <ul id="averti-menu" class="right hide-on-med-and-down">
+                    <li><a href="index" id="menuAccueil">accueil</a></li>
+                    <li><a href="index" id="menuExpertise">expertise</a></li>
+                    <li><a href="index" id="menuOutils">outils</a></li>
+                    <li class="active"><a href="clients">clients</a></li>
+                    <li><a href="actualites">actualités</a></li>
+                    <li><a href="contact">contact</a></li>
+                </ul>
+            <ul id="averti-menu-social" class="right">
+                <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                <li><a href="https://www.pinterest.com/agenceaverti/averti/" target="_blank"><i class="icon-pinterest social-icons"></i></a></li>
+                <li><a href="https://twitter.com/agenceaverti" target="_blank"><i class="icon-twitter social-icons"></i></a></li>
+                <li><a href="http://www.scoop.it/u/agence-averti" target="_blank"><i class="icon-scoopit"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/soci-t-averti?trk=ppro_cprof" target="_blank"><i class="icon-linkedin"></i></a></li>
+            </ul>
+                <ul class="side-nav" id="mobile-menu">
+                    <li><a href="index" id="menuMobAccueil">accueil</a></li>
+                    <li><a href="index" id="menuMobExpertise">expertise</a></li>
+                    <li><a href="index" id="menuMobOutils">outils</a></li>
+                    <li class="active"><a href="clients">clients</a></li>
+                    <li><a href="actualites">actualités</a></li>
+                    <li><a href="contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="second-section" id="outils">
+        <a href="#scroll"><i class="material-icons arrow">keyboard_arrow_up</i></a>
+            <div class="container" style="width: 80%;">
+                <div class="second-section-helper communiquer">
+                    <div class="section" style="margin: 0 4.5rem 0 4.5rem;">
+                        <div class="row">
+                            <div class="col s12">
+                                <h1 class="sections-title" style="margin: .3rem 0 1.68rem 0;">Mentions légales</h1>
+                                <p class="museo-300-15">
+                                    <span>
+<!--
+                                        {\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf110
+                                        {\fonttbl\f0\fnil\fcharset0 Monaco;}
+                                        {\colortbl;\red255\green255\blue255;}
+                                        \paperw11900\paperh16840\margl1440\margr1440\vieww13460\viewh13600\viewkind0
+                                        \deftab720
+                                        \pard\pardeftab720\partightenfactor0
+-->
+                                    </span>
+
+                                    <span>
+<!--                                        \f0\fs24 \cf0 \expnd0\expndtw0\kerning0-->
+                                        <br>
+                                        Le site internet http://www.averti.fr a été réalisé et développé par le service web de l'agence averti.
+                                    </span><br><br>
+
+                                    <span>Préambule : les présentes mentions légales ont pour objet de définir les modalités de mise à disposition et des conditions d'utilisation du site Internet http://www.averti.fr pour toute personne s'y connectant.
+                                    </span><br><br>
+
+                                    <span>Article 1<br><br>
+                                        Le site http://www.averti.fr est édité par la société Averti, 63 rue d'Angleterre à Lille. Directeur de la publication : Antoine Darras.
+                                    </span><br><br>
+
+                                    <span>Article 2<br><br>
+                                       Le service proposé par le site http://www.averti.fr est accessible en permanence sauf en cas de force majeure, panne éventuelle ou intervention de maintenance nécessaire au bon fonctionnement ou à la mise à jour du site http://www.averti.fr.
+                                    </span><br><br>
+
+                                    <span>Article 3<br><br>
+                                        Le site http://www.averti.fr et tout son contenu sont protégés par la législation du droit d'auteur et de la propriété intellectuelle.
+                                    </span><br><br>
+
+                                    <span>Article 4<br><br>
+                                        Le site http://www.averti.fr s'appuie sur la famille des logiciels Open Source LAMP (Linux, Apache, MySQL, PHP).
+                                    </span><br><br>
+
+                                    <span>Article 5<br><br>
+                                        Le site http://www.averti.fr est hébergé par la société OVH, Société par Actions Simplifiées, au capital de 500 000 euros, dont le siège social est établi 2, rue Kellermann, 59100 ROUBAIX, immatriculée au Registre du Commerce et des Sociétés sous le numéro RCS 424 761 419 00011 Roubaix Tourcoing.
+                                    </span><br><br>
+
+                                    <span>Article 6<br><br>
+                                        Toute personne se connectant au site http://www.averti.fr est réputée adhérer sans restrictions aux articles et préambule de ces mentions légales. En cas de non adhésion à ces articles et préambule, il est conseillé de quitter le site http://www.averti.fr et de ne pas utiliser ses services. Averti se réserve le droit de modifier unilatéralement ces mentions légales à tout moment.</span><br><br>
+
+                                    <span>Article 7<br><br>
+                                    Les liens hypertextes présents sur le site http://www.averti.fr et dirigeant les utilisateurs vers d'autres sites internet n'engagent pas la responsabilité de la rédaction.
+                                    </span><br><br>
+
+                                    <span>Crédits photographiques : les photos présentes sur le site http://www.averti.fr appartiennent à l'agence averti qui en est la seule propriétaire, sauf mentions contraires.<br>
+                                            Template : All Rights Reserved.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<!-- Scroll to the top -->
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.arrow').fadeIn();
+            } else {
+                $('.arrow').fadeOut();
+            }
+        });
+
+        $('.arrow').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+
+    });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29406093-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+<footer>
+        <div class="footer-first">
+            <div class="footer-container">
+                <div class="row valign-wrapper" style="height: inherit">
+                    <div class="col s12 m8 valign">
+                        <img src="images/ic_mail_outline_white_24px.svg" class="modal-trigger contact-icon" href="#contactForm" style="vertical-align:middle"> <span style="padding-left: 1rem;">63 rue d'Angleterre - 59000 LILLE - (+33) 03 20 13 02 02</span>
+                    </div>
+                    <div class="col s4 right-align">
+                        <a href="index"><img src="images/logo-agence-averti.png" alt="agence averti" class="hide-on-small-only" style="vertical-align:middle"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</html>

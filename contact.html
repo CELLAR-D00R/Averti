@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBRCQTK');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<title>Agence averti - conseil en contenu editorial</title>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="nWJm-AOcCgzZRuMGYM7EkCRNhIPMh-JwjCD4CZAFgUU" />
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="css/materialize.css">
+<link rel="stylesheet" href="css/fontello.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+    /* Bloc Angèle*/
+
+    /* ScoopIt icon */
+
+    .icon-scoopit {
+        background: url("./images/scoopit.png") no-repeat;
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+        margin-top: 15px;
+    }
+
+    .icon-scoopit:hover {
+        background: url("./images/scoopit-hover.png") no-repeat;
+        width: 35px;
+        background-size: 35px;
+        margin-top: 15px;
+    }
+    /* Linkedin icon */
+
+    .icon-linkedin {
+        background: url("./images/linkedin.png") no-repeat;
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+        margin-top: 15px;
+    }
+
+    .icon-linkedin:hover {
+        background: url("./images/linkedin-hover.png") no-repeat;
+        width: 35px;
+        background-size: 35px;
+        margin-top: 15px;
+    }
+    /* Flèche Scroll to the top */
+
+    .arrow {
+        float: right;
+        right: 25px;
+        position: fixed;
+        font-size: 50px;
+        z-index: 1000000;
+        bottom: 100px;
+        color: #a8287b;
+    }
+
+    @font-face {
+        font-family: "Museo";
+        src: url("fonts/Museo-300.otf") format("opentype");
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: "MuseoSans";
+        src: url("fonts/MuseoSans-300.otf") format("opentype");
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: "MuseoSans";
+        src: url("fonts/MuseoSans-500.otf") format("opentype");
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "MuseoSans";
+        src: url("fonts/MuseoSans-500Italic.otf") format("opentype");
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .intro-text {
+        font-family: "Museo", sans-serif;
+        font-size: 22px;
+    }
+
+    .top-nav {
+        height: 128px;
+        box-shadow: none;
+    }
+
+    .top-nav-container {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 90%
+    }
+
+    #averti-menu {
+        margin: 0;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+    }
+
+    nav {
+        color: #000;
+        background-color: #fff;
+    }
+
+    nav ul a {
+        color: #bfbfbf;
+        text-transform: uppercase;
+    }
+
+    nav ul li:hover,
+    nav ul li.active,
+    nav ul li.active a,
+    nav ul li a:hover {
+        background-color: #fff;
+        color: #a8287b;
+        border-top: 3px solid;
+        margin-top: -3px;
+    }
+
+    nav .nav-wrapper i {
+        font-size: 1.5rem;
+    }
+
+    .slider .indicators .indicator-item.active {
+        background-color: #a8287b
+    }
+
+    .slider .indicators {
+        position: absolute;
+        text-align: center;
+        left: auto;
+        right: 2em;
+        bottom: 200px;
+        margin: 0;
+        z-index: 10000
+    }
+
+    @media only screen and (max-width: 600px) {
+        .top-nav {
+            height: 60px!important;
+        }
+        img.logo-image {
+            height: 60%!important;
+            margin-top: 12px;
+        }
+    }
+
+    .slider .indicators .indicator-item {
+        display: block;
+        margin: 12px 12px;
+        background-color: #fff;
+    }
+
+    @media only screen and (min-width: 993px) {
+        .conseiller {
+            background-image: url("images/quote.png");
+            background-repeat: no-repeat;
+        }
+        .communiquer {
+            background-image: url("images/quote2.png");
+            background-repeat: no-repeat;
+        }
+    }
+
+    .conseiller-section {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 75%;
+    }
+
+    .sections-title {
+        font-family: "MuseoSans", sans-serif;
+        font-weight: 500;
+        font-size: 34px;
+        color: #a8287b;
+        margin: 2.6rem 0 1.68rem 0;
+    }
+
+    .sections-subtitle {
+        font-family: "MuseoSans", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #a8287b;
+    }
+
+    .divider {
+        height: 3px;
+        background: #e0e0e0;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #ffffff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #ffffff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #ffffff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+        /* IE6-9 */
+    }
+
+    .divider-vertical {
+        border-width: 0 3px 0 0;
+        border-style: solid;
+        -webkit-border-image: -webkit-linear-gradient(#fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%) 1 100%;
+        -moz-border-image: -moz-linear-gradient(#fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%) 1 100%;
+        -o-border-image: -o-linear-gradient(#fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%) 1 100%;
+        border-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 10%, #e0e0e0 80%, #ffffff 100%)) 1 100%;
+}
+
+a {
+    color: #a8287b;
+}
+
+.text-pink {
+    color: #a8287b;
+}
+
+.contacter-btn {
+    border-top: 2px solid #a8287b;
+    border-left: 2px solid #a8287b;
+    border-right: 2px solid #a8287b;
+}
+
+.contacter-btn:hover {
+    background-color: #a8287b;
+}
+
+.contacter-btn:hover .first {
+    color: #fff;
+}
+
+.first {
+    font-family: Arial;
+    font-size: 19.78px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #a8287b;
+    padding: 15px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.second {
+    font-family: "MuseoSans";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 0px 5px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.second-section {
+    background-color: #ececec;
+}
+
+.second-section-helper {
+    border-top: 3rem solid #ececec;
+    background-color: #fff;
+    border-bottom: 3rem solid #ececec;
+}
+
+.museo-300-22 {
+    font-family: "MuseoSans";
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.museo-500-14 {
+    font-family: "MuseoSans";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-first {
+    height: 50px;
+    background-color: #a8287b;
+}
+
+.footer-container {
+    height: 50px;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    color: #fff;
+}
+
+.footer-second {
+    height: 30px;
+}
+
+.mentions {
+    color: #000;
+    font-size: 11px;
+}
+
+.averti-link {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.averti-link:hover {
+    text-decoration: none;
+}
+
+.modal .modal-footer {
+    /*            background-color: #a8287b;*/
+    border-radius: 0 0 0px 0px;
+}
+
+.modal {
+    border: 1rem solid #a8287b;
+    border-radius: 0px;
+}
+
+.modal .modal-content {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.text-white {
+    color: #fff!important;
+}
+/* label color */
+
+.input-field label {
+    color: #8b8b8b;
+}
+
+input[type=text]:focus:not([readonly]),
+input[type=email]:focus input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 0;
+    box-shadow: 0 1px 0 0 #8b8b8b;
+}
+
+input[type=text],
+input[type=email] {
+    background-color: #ececec;
+    border-bottom: 0;
+    border-left: 10px solid #ececec;
+}
+/* label focus color */
+
+input[type=text]:focus+label,
+input[type=email]:focus+label {
+    color: #8b8b8b;
+}
+/* label underline focus color */
+
+input[type=text]:focus,
+input[type=email]:focus {
+    border-bottom: 1px solid #8b8b8b;
+    box-shadow: 0 1px 0 0 #8b8b8b;
+}
+
+::-webkit-input-placeholder {
+    color: #7F7F7F;
+}
+
+:-moz-placeholder {
+    color: #7F7F7F;
+}
+
+::-moz-placeholder {
+    color: #7F7F7F;
+}
+
+:-ms-input-placeholder {
+    color: #7F7F7F;
+}
+
+[type="checkbox"]+label {
+    text-transform: uppercase;
+}
+
+[type="checkbox"].filled-in:not(:checked)+label:after {
+    border: 2px solid #8b8b8b;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+    border: 2px solid #a8287b;
+    background-color: #a8287b;
+}
+
+.side-nav li {
+    padding: 0
+}
+
+.side-nav li:hover,
+.side-nav li.active {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li:hover,
+    nav ul li.active,
+    nav ul li.active a,
+    nav ul li a:hover {
+        border-top: 0!important;
+        margin-top: 0!important;
+    }
+}
+
+.footer-first {
+    height: 50px;
+    background-color: #a8287b;
+}
+
+.footer-container {
+    height: 50px;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    color: #fff;
+}
+
+.footer-second {
+    height: 30px;
+}
+
+.mentions {
+    color: #000;
+    font-size: 11px;
+}
+
+.clientsbg {
+    background-color: #a8287b;
+}
+
+.client-container {
+    padding-top: 2rem;
+}
+
+.client-btn {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #6b3257;
+    border: none;
+    border-radius: 0px;
+    display: inline-block;
+    height: 50px;
+    line-height: 1.5;
+    outline: 0;
+    padding: .2rem 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+
+
+.map {
+    height: 500px;
+    background: url("images/map.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.people-item {
+    padding: 0;
+    margin: 0 0px 0 0;
+}
+
+.people-item>img {
+    width: 100%;
+}
+
+blockquote {
+    border-left: 5px solid #a8287b;
+    color: #939598;
+}
+
+img.quote {
+    display: block;
+    margin: 0 auto;
+    padding-top: .5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .card .card-title {
+        font-size: 22px;
+    }
+    .card .card-content p a {
+        font-size: 10px;
+    }
+}
+
+.map-quote {
+    height: 250px;
+    width: 180px;
+    background: url("images/map-quote.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+
+.newsletter-button {
+    position: relative;
+    top: -60px;
+    height: 60px;
+    width: 280px;
+    margin: auto;
+    background-color: #a8287b;
+    cursor: pointer;
+}
+
+.newsletter-first {
+    color: #fff;
+    font-family: "MuseoSans";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+}
+
+.newsletter-second {
+    color: #fff;
+    font-family: "MuseoSans";
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1;
+    font-style: italic;
+}
+
+input[type="submit"] {
+    background-color: #a8287b;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    width: 100%;
+}
+
+textarea.materialize-textarea {
+    border-bottom: 0;
+    border-left: 10px solid #ececec;
+    background-color: #ececec;
+}
+
+textarea.materialize-textarea:focus {
+    border-bottom: 0;
+    box-shadow: 0 1px 0 0 #8b8b8b;
+}
+
+input[type=text].invalid,
+input[type=text]:focus.invalid,
+input[type=password].invalid,
+input[type=password]:focus.invalid,
+input[type=email].invalid,
+input[type=email]:focus.invalid,
+input[type=url].invalid,
+input[type=url]:focus.invalid,
+input[type=time].invalid,
+input[type=time]:focus.invalid,
+input[type=date].invalid,
+input[type=date]:focus.invalid,
+input[type=datetime-local].invalid,
+input[type=datetime-local]:focus.invalid,
+input[type=tel].invalid,
+input[type=tel]:focus.invalid,
+input[type=number].invalid,
+input[type=number]:focus.invalid,
+input[type=search].invalid,
+input[type=search]:focus.invalid,
+textarea.materialize-textarea.invalid,
+textarea.materialize-textarea:focus.invalid {
+    border-bottom: 0px solid #F44336;
+    box-shadow: 0 1px 0 0 #F44336;
+}
+
+input[type=text].valid,
+input[type=text]:focus.valid,
+input[type=password].valid,
+input[type=password]:focus.valid,
+input[type=email].valid,
+input[type=email]:focus.valid,
+input[type=url].valid,
+input[type=url]:focus.valid,
+input[type=time].valid,
+input[type=time]:focus.valid,
+input[type=date].valid,
+input[type=date]:focus.valid,
+input[type=datetime-local].valid,
+input[type=datetime-local]:focus.valid,
+input[type=tel].valid,
+input[type=tel]:focus.valid,
+input[type=number].valid,
+input[type=number]:focus.valid,
+input[type=search].valid,
+input[type=search]:focus.valid,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea:focus.valid {
+    border-bottom: 0px solid #4CAF50;
+    box-shadow: 0 1px 0 0 #4CAF50;
+}
+
+@media only screen and (max-width: 400px) {
+    .footer-first,
+    .footer-container {
+        height: 80px;
+    }
+    .card .card-content {
+        padding: 5px;
+    }
+    .card .card-content .card-title {
+        line-height: 18px;
+    }
+}
+
+.success {
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #468847;
+    margin-bottom: 15px;
+}
+
+.error {
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1304px) {
+    .card a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .btn-plus {
+        bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 1188px) {
+    .card a {
+        font-size: 73%;
+        /* font-size: 65%; */
+    }
+}
+
+@media only screen and (max-width: 1195px) {
+    .card .card-content .card-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .card .card-content .card-title {
+        font-size: 140%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .card .card-content .card-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card .card-content .card-title {
+        font-size: 21px;
+    }
+    .card a {
+        font-size: 12px;
+    }
+    .btn-plus {
+        bottom: -48px !important;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+    .btn-plus {
+        bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .card .card-content .card-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .card .card-content .card-title {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    .card .card-content .card-title {
+        font-size: 13px;
+    }
+    .card .card-content p a {
+        font-size: 9px;
+    }
+}
+
+.social-icons {
+    border: 2px solid;
+    border-radius: 50%;
+    height: 35px !important;
+    width: 35px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    margin-top: 15px !important;
+}
+
+.icon-twitter.social-icons {
+    font-size: 1rem;
+}
+
+.contact-icon {
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.btn-plus {
+    position: relative;
+    bottom: 20px !important;
+    /*    margin-top: 0 !important;*/
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1100px) {
+.people-container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    flex : 1;  
+} 
+
+.row{
+    display: flex;
+} 
+
+.card{
+    margin :10px;
+} 
+.hidden{
+    visibility: hidden;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+.people-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    flex : 1;  
+} 
+
+.row{
+    display: flex;
+    flex-direction: column;
+} 
+.card{
+    margin :10px;
+    flex :1;
+} 
+.hidden{
+    display: none;
+}
+
+}
+
+
+
+</style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBRCQTK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="top-nav" id="scroll">
+        <nav class="top-nav top-nav-container">
+            <div class="nav-wrapper">
+                <a class="page-title" href="index"><img class="logo-image" src="images/logo_averti.png" alt="logo de l'agence averti" height="85;" style="margin-top: 25px;"></a>
+                <ul id="averti-menu" class="right hide-on-med-and-down">
+                    <li><a href="index" id="menuAccueil">accueil</a></li>
+                    <li><a href="index.html?section=expertise" id="menuExpertise">expertise</a></li>
+                    <li><a href="index.html?section=outils" id="menuOutils">outils</a></li>
+                    <li><a href="clients">clients</a></li>
+                    <li><a href="actualites">actualités</a></li>
+                    <li class="active"><a href="contact">contact</a></li>
+                </ul>
+                <ul id="averti-menu-social" class="right">
+                    <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <li><a href="https://www.pinterest.com/averti0314/" target="_blank"><i class="icon-pinterest social-icons"></i></a></li>
+                    <li><a href="https://twitter.com/agenceaverti" target="_blank"><i class="icon-twitter social-icons"></i></a></li>
+                    <li><a href="http://www.scoop.it/u/agence-averti" target="_blank"><i class="icon-scoopit"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/soci-t-averti?trk=ppro_cprof" target="_blank"><i class="icon-linkedin"></i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-menu">
+                    <li><a href="index" id="menuMobAccueil">accueil</a></li>
+                    <li><a href="index" id="menuMobExpertise">expertise</a></li>
+                    <li><a href="index" id="menuMobOutils">outils</a></li>
+                    <li><a href="clients">clients</a></li>
+                    <li><a href="actualites">actualités</a></li>
+                    <li class="active"><a href="contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a href="#scroll"><i class="material-icons arrow">keyboard_arrow_up</i></a>
+        <!-- Map -->
+        <section>
+            <div class="map">
+                <div class="valign-wrapper" style="height: inherit">
+                    <div class="valign map-quote">
+                        <a href="https://goo.gl/maps/dMomqnvhyC62" target="_blank">
+                            <div itemscope itemtype="http://schema.org/LocalBusiness" style="margin: 2.2rem;">
+                                <p itemscope itemtype="http://schema.org/PostalAddress" style="font-size: 12px; color: #a8287b; line-height: 1.2;margin-left:.5em;margin-right:.5em;">
+                                    <span class="museo-300-22" itemprop="name">averti</span>
+                                    <br/>
+                                    <span itemprop="streetAddress">63 rue <br/>d'Angleterre</span>
+                                    <br/>
+                                    <span itemprop="postalCode">59000</span> <span itemprop="addressLocality">LILLE</span>
+                                    <br/>
+                                    <br/>
+                                    <span itemprop="telephone">+33 3 20 13 02 02</span>
+                                    <br/>
+                                    <span itemprop="email">equipe[at]averti.fr</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="newsletter-button">
+                    <a href="http://averti.fr/trouvaillesdudredi" target="_blank">
+                        <div class="row">
+                            <div class="col s3 valign-wrapper center-align" style="height: 60px">
+                                <div class="valign" style="width: 100%">
+                                    <img src="images/mail-icon.png" style="margin-top: 5px;">
+                                </div>
+                            </div>
+                            <div class="col s9 valign-wrapper" style="height: 60px">
+                                <div class="valign">
+                                    <p class="newsletter-first">Je m'inscris à la newsletter</p>
+                                    <!-- Avec cursor pointer -->
+                                    <p class="newsletter-second">Les trouvailles du Dredi</p>
+                                    <!-- En italique -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- People list -->
+        <section class="people-container">
+
+
+            <div class="row"> <!--  ROW 1 ------------------------------ -->
+
+             <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/01_antoine-darras.jpg" alt="antoine-darras-agence_averti">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Antoine DARRAS</span>
+                    <p><a>Scénariste de solutions</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Antoine DARRAS<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Dans une entreprise, il faut réussir à faire vivre de fabuleux cavaliers (défi) ET de fabuleux bénédictins (gestion).</blockquote>
+                    <p>- Jean-Marie Descarpentries, auteur de <i>L’entreprise réconciliée</i></p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">antoine.darras[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/02_karine-morel.jpg" alt="karine-morel-agence_averti" align="center">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4 mobile-spacer">Karine MOREL</span>
+                    <p><a>&#201;conome énergique</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Karine MOREL<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>A l’époque, les concepteurs-rédacteurs ajoutaient un palmier dans leurs scénarios pour être sûrs que le film soit tourné aux Caraïbes. Ce n’est plus beaucoup le cas aujourd’hui.</blockquote>
+                    <p>- Un publicitaire nostalgique</p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">karine.morel[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/07_florence-vigeant.jpg" alt="florence-vigeant_agence-averti">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Florence VIGEANT</span>
+                    <p><a>Guide de hautes instances</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Florence VIGEANT<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Il était un guerrier du verbe, qui aimait remporter des victoires intellectuelles et utilisait toutes les méthodes pour cela.</blockquote>
+                    <p>- Hommage à Michel Sebillotte</p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">florence.vigeant[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/04_paul-renou.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Paul RENOU<i class="material-icons right">more_vert</i></span>
+                    <p><a>Multimédiateur de proximité</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Paul RENOU<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Ce que j’ai voulu dire n’est pas exactement ce que j’ai dit. Ce que j’ai dit n’est pas exactement ce qui est entendu. Ce qui est entendu n’est pas exactement ce qui est compris.</blockquote>
+                    <p> Un orateur clairvoyant</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row"><!--  ROW 2 ---------------------------------------->
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/05_bertille-courbin.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Bertille COURBIN<i class="material-icons right">more_vert</i></span>
+                    <p><a>Gardienne du sens</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Bertille COURBIN<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Pour reprendre les termes de Diderot,<i> « il serait temps que ceux qui réfléchissent se rapprochassent de ceux qui se remuent ».</i> </blockquote>
+                    <p>Georges Cavallier, président de la Fédération des PACT</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/pauline.png" alt="pauline-gauchet-agence_averti">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Pauline GAUCHET</span>
+                    <p><a>Investigatrice de perfection</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Pauline GAUCHET<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Le meilleur moyen de réaliser l’impossible est de croire que c’est possible.</blockquote>
+                    <p>- Le chapelier fou</p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">pauline.gauchet[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/03_marie-barral.png" alt="marie-barral-agence_averti">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Marie BARRAL</span>
+                    <p><a>Compositrice d’idées</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Marie BARRAL<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Nous avons entre nos mains la plus belle arme du monde : si nous arrêtons d’écrire, les gens cessent de rêver !</blockquote>
+                    <p>- Paul Boujenah, auteur, réalisateur, producteur</p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">marie.barral[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/08_aurore-pouillard.jpg" alt="aurore-pouillard_agence-averti">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Aurore POUILLARD</span>
+                    <p><a>Exploratrice d’énoncés</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Aurore POUILLARD<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Monsieur le président, j’ai compris que je devais aller à la vitesse du martin pêcheur et avoir la concision du hérisson pour éviter de vous mettre en boule.</blockquote>
+                    <p>- Un amoureux des métaphores animalières</p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">aurore.pouillard[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row"> <!--  ROW 3 ------------------------------ -->
+         <div class="hidden">
+             <!--  Cest la cellule de gauche. supprimer cette ligne pour lafficher, sinon garder la div hidden. SURTOUT NE PAS COMMENTER SVP (voir yassine si ca ne marche pas tout de meme) -->
+             <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/equipe/01_antoine-darras.jpg" alt="antoine-darras-agence_averti">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Antoine DARRAS</span>
+                    <p><a>Scénariste de solutions</a></p>
+                    <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Antoine DARRAS<i class="material-icons right">close</i></span>
+                    <img src="images/virgule.png" class="quote">
+                    <blockquote>Dans une entreprise, il faut réussir à faire vivre de fabuleux cavaliers (défi) ET de fabuleux bénédictins (gestion).</blockquote>
+                    <p>- Jean-Marie Descarpentries, auteur de <i>L’entreprise réconciliée</i></p>
+                    <div class="coordonnees">
+                        <p style="color: #c4267e">antoine.darras[at]averti.fr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/equipe/johan.png"  max-height="500" max-width="300">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Johann HUMEZ</span>
+                <p><a>Architecte du contenu</a></p>
+                <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Johann HUMEZ<i class="material-icons right">close</i></span>
+                <img src="images/virgule.png" class="quote">
+                <blockquote> Les mots sont comme les abeilles : ils ont le miel et l'aiguillon</blockquote>
+                <p>-</p>
+                <div class="coordonnees">
+                    <p style="color: #c4267e">joann.humez[at]averti.fr</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-imageju waves-effect waves-block waves-light">
+                <img class="activator" src="images/equipe/julie.png" alt="julie-rouet_agence-averti">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Julie ROUET</span>
+                <p><a>Créative du clic</a></p>
+                <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Julie Rouet<i class="material-icons right">close</i></span>
+                <img src="images/virgule.png" class="quote" max-height="500" max-width="300">
+                <blockquote>Un pédopsychiatre s’interrogeait récemment en ma présence : faut-il encore apprendre les tables de multiplication ou plutôt apprendre à bien les chercher sur Google ?</blockquote>
+                <p>- Anne-Sophie Novel, fondatrice d’Ecoloinfo</p>
+                <div class="coordonnees">
+                    <p style="color: #c4267e">julie.rouet[at]averti.fr</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/equipe/11_foucauld-deceuninck.png" max-height="500" max-width="300">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Foucauld DECEUNINCK</span>
+                <p><a>Homme orchestre de l'édition </a></p>
+                <i class="material-icons right-plus hide-on-small-only activator btn-plus">add_circle_outline</i>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Foucauld DECEUNINCK<i class="material-icons right">close</i></span>
+                <img src="images/virgule.png" class="quote">
+                <blockquote>-La parole, cette forme désuète de la communication</blockquote>
+                <p>- Yvon Rivard, écrivain Canadien</p>
+                <div class="coordonnees">
+                    <p style="color: #c4267e">foucauld.deceuninck[at]averti.fr</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</section>
+
+
+</main>
+<footer>
+    <div class="footer-first">
+        <div class="footer-container">
+            <div class="row valign-wrapper" style="height: inherit">
+                <div class="col s8 valign">
+                    <img src="images/ic_mail_outline_white_24px.svg" class="modal-trigger contact-icon" href="#contactForm" style="vertical-align:middle"> <span style="padding-left: 1rem; font-size: 13px;">63 rue d'Angleterre - 59000 LILLE - (+33) 03 20 13 02 02</span>
+                </div>
+                <div class="col s4 right-align">
+                    <a href="index"><img src="images/logo-agence-averti.png" alt="logo de l'agence averti" class="hide-on-small-only" style="vertical-align:middle"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-second">
+        <div class="valign-wrapper" style="height: inherit">
+            <div class="valign" style="text-align: center; width: 100%;">
+                <a class="center-align mentions" href="./mentions" target="_blank">Mentions légales</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Contact Form -->
+<div id="contactForm" class="modal">
+    <div class="modal-content">
+        <div class="row" style="margin-top: 20px; margin-left: -10px; margin-bottom: 0px;">
+            <div class="col s12" id="contact-messages">
+
+            </div>
+            <form class="col s12" method="post" action="mailer.php" id="formContact">
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s6">
+                        <input id="last_nameContact" type="text" placeholder="PRÉNOM" name="last_nameContact" class="validate" required>
+                    </div>
+                    <div class="col s6">
+                        <input id="first_nameContact" type="text" placeholder="NOM" name="first_nameContact" class="validate" required>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s12">
+                        <input id="enterpriseContact" type="text" placeholder="ORGANISATION" name="enterpriseContact" class="validate" required>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s12">
+                        <input id="emailContact" type="email" placeholder="E-MAIL" name="emailContact" class="validate" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <textarea id="textContact" class="materialize-textarea validate" placeholder="MESSAGE" name="textContact" required></textarea>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s12 l4 offset-l4 center-align" style="background: #a8287b;">
+                        <input type="submit" value="envoyer" class="" style="" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Newsletter Form -->
+<div id="newsletterForm" class="modal">
+    <div class="modal-content">
+        <div class="row" style="margin-top: 20px; margin-left: -10px; margin-bottom: 0px;">
+            <form class="col s12" action="newsletter.php" method="POST">
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s6">
+                        <input id="last_nameNewsletter" type="text" placeholder="PRÉNOM" name="lastName">
+                    </div>
+                    <div class="col s6">
+                        <input id="first_nameNewsletter" type="text" placeholder="NOM" name="firstName">
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s12">
+                        <input id="enterpriseNewsletter" type="text" placeholder="ORGANISATION" name="enterprise">
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s12">
+                        <input id="emailNewsletter" type="email" placeholder="E-MAIL" name="email" required>
+                    </div>
+                </div>
+                    <!--
+                    <div class="row">
+                        <div class="col s6 l4">
+                            <input type="checkbox" class="filled-in" id="sciencesEcologie"/>
+                            <label for="sciencesEcologie">sciences/écologie</label>
+                        </div>
+                        <div class="col s6 l4">
+                            <input type="checkbox" class="filled-in" id="viedEntreprise" />
+                            <label for="viedEntreprise">vie d’entreprise</label>
+                        </div>
+                        <div class="col s6 l4">
+                            <input type="checkbox" class="filled-in" id="politiqueSociete" />
+                            <label for="politiqueSociete">politique/société</label>
+                        </div>
+                        <div class="col s6 l4">
+                            <input type="checkbox" class="filled-in" id="cultureTourisme" />
+                            <label for="cultureTourisme">culture/tourisme</label>
+                        </div>
+                        <div class="col s6 l4">
+                            <input type="checkbox" class="filled-in" id="devTerritoires" />
+                            <label for="devTerritoires">développement des territoires</label>
+                        </div>
+                        <div class="col s6 l4">
+                            <input type="checkbox" class="filled-in" id="innovation" />
+                            <label for="innovation">innovation</label>
+                        </div>
+                        <div class="col s12">
+                            <input type="checkbox" class="filled-in" id="autres" />
+                            <label for="autres">autres (précisez)</label>
+                        </div>
+                    </div>
+                -->
+                <div class="modal-footer">
+                    <div class="modal-footer-content valign-wrapper" style="width: 98%;margin: auto;height: 50px;">
+                        <p class="valign" style="margin: 0;padding: 0;font-size:12px;color:#9e9e9e;"><input type="checkbox" value="true" />J'ai bien conscience que je n'aurai QUE des trésors tous les vendredis dans ma boîte mail et que ce sera court et efficace =)</p>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 0px;">
+                    <div class="col s12 l4 offset-l4 center-align" style="background: #a8287b;">
+                        <input type="submit" value="envoyer" class="" style="" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="js/materialize.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".button-collapse").sideNav();
+        $('.modal-trigger').leanModal();
+    });
+</script>
+<script>
+    $(function() {
+            // Get the form.
+            var form = $('#formContact');
+            // Get the messages div.
+            var formMessages = $('#contact-messages');
+
+            // Set up an event listener for the contact form.
+            $(form).submit(function(e) {
+                // Stop the browser from submitting the form.
+                e.preventDefault();
+
+                // Serialize the form data.
+                var formData = $(form).serialize();
+
+                // Submit the form using AJAX.
+                $.ajax({
+                    type: 'POST',
+                    url: $(form).attr('action'),
+                    data: formData
+                })
+                .done(function(response) {
+                        // Make sure that the formMessages div has the 'success' class.
+                        $(formMessages).removeClass('error');
+                        $(formMessages).addClass('success');
+
+                        // Set the message text.
+                        $(formMessages).text(response);
+
+                        // Clear the form.
+                        $('#first_nameContact').val('');
+                        $('#last_nameContact').val('');
+                        $('#enterpriseContact').val('');
+                        $('#emailContact').val('');
+                        $('#textContact').val('');
+                    })
+                .fail(function(data) {
+                        // Make sure that the formMessages div has the 'error' class.
+                        $(formMessages).removeClass('success');
+                        $(formMessages).addClass('error');
+
+                        // Set the message text.
+                        if (data.responseText !== '') {
+                            $(formMessages).text(data.responseText);
+                        } else {
+                            $(formMessages).text("Oops! Il y avait un problème avec votre soumission. S'il vous plaît remplir le formulaire et essayez à nouveau.");
+                        }
+                    });
+            });
+        });
+    </script>
+
+    <!-- Scroll to the top -->
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.arrow').fadeIn();
+                } else {
+                    $('.arrow').fadeOut();
+                }
+            });
+
+            $('.arrow').click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-29406093-1', 'auto');
+      ga('send', 'pageview');
+
+  </script>
+</body>
+
+</html>
